@@ -29,7 +29,7 @@ Hi, I'm Tyler! I'm currently building [Kamiwaza](https://www.kamiwaza.ai/), and 
 
 # Collection to display on home
 homeCollectionTitle = 'Blog'
-homeCollection = 'posts'
+homeCollection = 'blogs'
 
 # Lists parameters
 paginationSize = 10
@@ -59,7 +59,7 @@ url = "/tylerhouchin-dot-com/"
 
 [[params.menu]]
 name = "blog"
-url = "/tylerhouchin-dot-com/posts/"
+url = "/tylerhouchin-dot-com/blogs/"
 
 [[params.menu]]
 name = "projects"
