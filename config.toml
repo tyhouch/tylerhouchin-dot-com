@@ -75,8 +75,3 @@ style = 'algol'
 [params.giscus]
 enable = false
 
-# Add module imports for the theme
-[module]
-  [[module.imports]]
-    path = "github.com/tomfran/typo"
-

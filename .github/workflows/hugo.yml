@@ -27,8 +27,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive
-          fetch-depth: 0
+          submodules: recursive  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -37,7 +37,6 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo mod get
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
