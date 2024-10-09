@@ -1,15 +1,21 @@
-+++
-title = 'Hey'
-date = 2024-10-08T21:07:20-07:00
-draft = false
-+++
+---
+title: "My New Project"
+date: "2024-10-08"
+summary: "A short overview of my new project."
+description: "Detailed description of my new project."
+toc: true
+readTime: true
+autonumber: true
+math: false
+tags: ["generative AI", "technology"]
+showTags: true
+hideBackToTop: false
+draft: false
+type: 'projects'    
+--- 
+---
 
-## today we eat
+## Introduction
 
-- [ ] eggs
-- [ ] toast
-- [ ] bacon
-- [ ] sausage
-- [ ] hash browns
-- [ ] coffee
-- [ ] orange juice
+This project focuses on...
+

@@ -9,12 +9,12 @@ theme = 'typo'
 [taxonomies]
 tag = 'tags'
 
-# Google analytics code (optional, can leave blank if not used)
-googleAnalytics = ""
-
 [params]
+# Appearance settings
+theme = 'auto'
 # Meta description
 description = "Interested in generative AI, biotechnology, and sociology. Blogging to spark conversations and log thoughts as we approach AGI."
+mainSections = ["blogs", "projects"]
 
 # Appearance settings
 colorPalette = 'default'
@@ -27,17 +27,23 @@ homeIntroContent = """
 Hi, I'm Tyler! I'm currently building [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
 """
 
+
+singleDateFormat = '2 Jan 2006'
+
 # Collection to display on home
-homeCollectionTitle = 'Blog'
-homeCollection = 'blogs'
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
 
 # Lists parameters
-paginationSize = 10
+paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = '02 Jan 2006'
 
 # Breadcrumbs
 breadcrumbs = true
+
+showFooter = true
+# footerContent = """Custom"""
 
 # Social icons
 [[params.social]]
@@ -45,12 +51,12 @@ name = "linkedin"
 url = "https://www.linkedin.com/in/tylerhouchin/"
 
 [[params.social]]
-name = "github"
-url = "https://github.com/tyhouch"
-
-[[params.social]]
 name = "twitter"
 url = "https://twitter.com/tyhouch"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/tyhouch"
 
 # Main menu pages
 [[params.menu]]
@@ -58,20 +64,44 @@ name = "home"
 url = "/"
 
 [[params.menu]]
-name = "blog"
-url = "/blogs/"
+name = "blogs"
+url = "/blogs"
 
 [[params.menu]]
 name = "projects"
-url = "/projects/"
+url = "/projects"
 
-# Syntax highlight on code blocks
+# [[params.menu]]
+# name = "library"
+# url = "/library"
+
+# [[params.menu]]
+# name = "tags"
+# url = "/tags"
+
+
+# Syntax highligth on code blocks
 [markup]
 [markup.highlight]
-style = 'algol'
+style = 'bw'
 
-# Disable comments for now
+# Deploy settings
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg|gif|webp)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
 [params.giscus]
 enable = false
-
-
+repo = "tomfran/blog"
+repoid = "R_kgDOLtSszw"
+category = "General"
+categoryid = "DIC_kwDOLtSsz84CfLm4"
+mapping = "pathname"
+theme = "preferred_color_scheme"
