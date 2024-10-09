@@ -1,6 +1,6 @@
 baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
 relativeURLs = false
-canonifyURLs = true
+canonifyURLs = false
 
 
 languageCode = 'en-us'
@@ -13,8 +13,6 @@ tag = 'tags'
 googleAnalytics = ""
 
 [params]
-# Add this line to ensure assets are loaded from the correct path
-assetDir = "assets"
 # Meta description
 description = "Interested in generative AI, biotechnology, and sociology. Blogging to spark conversations and log thoughts as we approach AGI."
 
