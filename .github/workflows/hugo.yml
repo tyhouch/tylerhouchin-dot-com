@@ -27,8 +27,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          submodules: recursive  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: recursive
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
@@ -42,7 +42,16 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Post-process HTML files
         run: |
-          find public -type f -name "*.html" -exec sed -i 's|href="./tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g; s|src="./tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g; s|href=\./|href=/tylerhouchin-dot-com/|g; s|href=/tylerhouchin-dot-com/tylerhouchin-dot-com/|href=/tylerhouchin-dot-com/|g' {} +
+          find public -type f -name "*.html" -exec sed -i \
+            -e 's|href="\./tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g' \
+            -e 's|src="\./tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g' \
+            -e 's|href="\./|href="/tylerhouchin-dot-com/|g' \
+            -e 's|src="\./|src="/tylerhouchin-dot-com/|g' \
+            -e 's|href="/tylerhouchin-dot-com/tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g' \
+            -e 's|src="/tylerhouchin-dot-com/tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g' \
+            -e 's|href=\(['"'"'"]\)tylerhouchin-dot-com/|href=\1/tylerhouchin-dot-com/|g' \
+            -e 's|src=\(['"'"'"]\)tylerhouchin-dot-com/|src=\1/tylerhouchin-dot-com/|g' \
+            {} +
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
