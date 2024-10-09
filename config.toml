@@ -1,0 +1,73 @@
+baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+relativeURLs = true
+canonifyURLs = true
+
+languageCode = 'en-us'
+title = 'tylerhouchindotcom'
+theme = 'typo'
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code (optional, can leave blank if not used)
+googleAnalytics = ""
+
+[params]
+# Meta description
+description = "Interested in generative AI, biotechnology, and sociology. Blogging to spark conversations and log thoughts as we approach AGI."
+
+# Appearance settings
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Welcome!'
+# Intro on main page, content is markdown
+homeIntroContent = """
+Hi, I'm Tyler! I'm currently building [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Blog'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 10
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tylerhouchin/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/tyhouch"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/tyhouch"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "blog"
+url = "/posts"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Disable comments for now
+[params.giscus]
+enable = false
