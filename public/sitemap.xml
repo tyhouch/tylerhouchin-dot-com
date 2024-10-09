@@ -2,15 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tyhouch.github.io/tylerhouchin-dot-com/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-10-08T17:58:10-07:00</lastmod>
   </url><url>
-    <loc>https://tyhouch.github.io/tylerhouchin-dot-com/blogs/</loc>
+    <loc>//localhost:1313/projects/my-first-project/</loc>
+    <lastmod>2024-10-08T17:58:10-07:00</lastmod>
   </url><url>
-    <loc>https://tyhouch.github.io/tylerhouchin-dot-com/posts/</loc>
+    <loc>//localhost:1313/blogs/my-first-blog/</loc>
+    <lastmod>2024-10-08T17:57:56-07:00</lastmod>
   </url><url>
-    <loc>https://tyhouch.github.io/tylerhouchin-dot-com/projects/</loc>
+    <loc>//localhost:1313/posts/my-first-post/</loc>
+    <lastmod>2024-10-08T17:56:34-07:00</lastmod>
   </url><url>
-    <loc>https://tyhouch.github.io/tylerhouchin-dot-com/tags/</loc>
+    <loc>//localhost:1313/blogs/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+  </url><url>
+    <loc>//localhost:1313/projects/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>
