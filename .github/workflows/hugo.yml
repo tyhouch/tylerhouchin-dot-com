@@ -42,7 +42,7 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Post-process HTML files
         run: |
-          find public -type f -name "*.html" -exec sed -i 's|href="./tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g; s|src="./tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g; s|href=\./|href=/tylerhouchin-dot-com/|g' {} +
+          find public -type f -name "*.html" -exec sed -i 's|href="./tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g; s|src="./tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g; s|href=\./|href=/tylerhouchin-dot-com/|g; s|href=/tylerhouchin-dot-com/tylerhouchin-dot-com/|href=/tylerhouchin-dot-com/|g' {} +
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
