@@ -1,4 +1,4 @@
-baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+baseURL = "/"
 relativeURLs = false
 canonifyURLs = false
 
@@ -63,7 +63,7 @@ url = "/tylerhouchin-dot-com/posts"
 
 [[params.menu]]
 name = "projects"
-url = "/tylerhouchin-dot-com/projects"
+url = "/projects"
 
 # Syntax highlight on code blocks
 [markup]
