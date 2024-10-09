@@ -1,5 +1,5 @@
-baseURL = "http://localhost:1313/"
-relativeURLs = true
+baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+relativeURLs = false
 canonifyURLs = true
 
 languageCode = 'en-us'
@@ -23,9 +23,8 @@ hideHeader = false
 homeIntroTitle = 'Welcome!'
 # Intro on main page, content is markdown
 homeIntroContent = """
-Hi, I’m Tyler! I’m currently building [Kamiwaza](https://www.kamiwaza.ai/), and I’m deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
+Hi, I'm Tyler! I'm currently building [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
 """
-
 
 # Collection to display on home
 homeCollectionTitle = 'Blog'
@@ -59,7 +58,7 @@ url = "/"
 
 [[params.menu]]
 name = "blog"
-url = "/blogs"
+url = "/posts"
 
 [[params.menu]]
 name = "projects"
