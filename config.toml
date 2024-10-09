@@ -1,5 +1,5 @@
-baseURL = "/"
-relativeURLs = true
+baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+relativeURLs = false
 canonifyURLs = true
 
 languageCode = 'en-us'
@@ -63,6 +63,7 @@ url = "/posts"
 [[params.menu]]
 name = "projects"
 url = "/projects"
+
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
@@ -71,3 +72,8 @@ style = 'algol'
 # Disable comments for now
 [params.giscus]
 enable = false
+
+# Add module imports for the theme
+[module]
+  [[module.imports]]
+    path = "typo"
