@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
 relativeURLs = false
 canonifyURLs = false
 
@@ -55,7 +55,7 @@ url = "https://twitter.com/tyhouch"
 # Main menu pages
 [[params.menu]]
 name = "home"
-url = "/"
+url = "/tylerhouchin-dot-com/"
 
 [[params.menu]]
 name = "blog"
@@ -63,7 +63,7 @@ url = "/tylerhouchin-dot-com/posts"
 
 [[params.menu]]
 name = "projects"
-url = "/projects"
+url = "/tylerhouchin-dot-com/projects"
 
 # Syntax highlight on code blocks
 [markup]
