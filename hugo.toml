@@ -78,6 +78,5 @@ enable = false
 # Add module imports for the theme
 [module]
   [[module.imports]]
-    path = "typo"
-
+    path = "github.com/tomfran/typo"
 

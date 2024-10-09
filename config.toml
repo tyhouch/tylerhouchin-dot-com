@@ -12,6 +12,8 @@ tag = 'tags'
 googleAnalytics = ""
 
 [params]
+# Add this line to ensure assets are loaded from the correct path
+assetDir = "assets"
 # Meta description
 description = "Interested in generative AI, biotechnology, and sociology. Blogging to spark conversations and log thoughts as we approach AGI."
 
@@ -76,4 +78,5 @@ enable = false
 # Add module imports for the theme
 [module]
   [[module.imports]]
-    path = "typo"
+    path = "github.com/tomfran/typo"
+
