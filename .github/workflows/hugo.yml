@@ -41,12 +41,9 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Verify generated files
+      - name: Post-process HTML files
         run: |
-          echo "Contents of public directory:"
-          ls -R public
-          echo "Sample of index.html:"
-          head -n 20 public/index.html
+          find public -type f -name "*.html" -exec sed -i 's|href="./tylerhouchin-dot-com/|href="/tylerhouchin-dot-com/|g; s|src="./tylerhouchin-dot-com/|src="/tylerhouchin-dot-com/|g' {} +
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

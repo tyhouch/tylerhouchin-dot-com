@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/tylerhouchin-dot-com/</loc>
     <lastmod>2024-10-08T17:58:10-07:00</lastmod>
   </url><url>
-    <loc>/blogs/</loc>
+    <loc>http://localhost:1313/tylerhouchin-dot-com/blogs/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>http://localhost:1313/tylerhouchin-dot-com/posts/</loc>
   </url><url>
-    <loc>/projects/</loc>
+    <loc>http://localhost:1313/tylerhouchin-dot-com/projects/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/tylerhouchin-dot-com/tags/</loc>
   </url>
 </urlset>
