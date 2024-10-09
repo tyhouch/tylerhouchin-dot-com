@@ -1,5 +1,5 @@
 baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = true
 
 languageCode = 'en-us'
@@ -63,7 +63,6 @@ url = "/posts"
 [[params.menu]]
 name = "projects"
 url = "/projects"
-
 # Syntax highlight on code blocks
 [markup]
 [markup.highlight]
