@@ -1,4 +1,4 @@
-baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+baseURL = "http://localhost:1313"
 relativeURLs = false
 canonifyURLs = true
 
