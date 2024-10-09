@@ -1,6 +1,6 @@
-baseURL = "/"
-relativeURLs = false
-canonifyURLs = true
+baseURL = "https://tyhouch.github.io/tylerhouchin-dot-com/"
+relativeURLs = true
+canonifyURLs = false
 
 languageCode = 'en-us'
 title = 'tylerhouchindotcom'
