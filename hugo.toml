@@ -67,9 +67,9 @@ url = "/"
 name = "blogs"
 url = "/blogs"
 
-[[params.menu]]
-name = "projects"
-url = "/projects"
+# [[params.menu]]
+# name = "projects"
+#url = "/projects"
 
 # [[params.menu]]
 # name = "library"
