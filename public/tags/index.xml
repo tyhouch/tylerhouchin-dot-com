@@ -22,5 +22,47 @@
       <guid>http://localhost:1313/tags/technology/</guid>
       <description></description>
     </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI Infrastructure</title>
+      <link>http://localhost:1313/tags/ai-infrastructure/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai-infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT-4</title>
+      <link>http://localhost:1313/tags/gpt-4/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gpt-4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPT-O1</title>
+      <link>http://localhost:1313/tags/gpt-o1/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gpt-o1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inference</title>
+      <link>http://localhost:1313/tags/inference/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/inference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scaling Laws</title>
+      <link>http://localhost:1313/tags/scaling-laws/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/scaling-laws/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
