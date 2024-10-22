@@ -31,8 +31,8 @@ Hi, I'm Tyler! I'm currently building [Kamiwaza](https://www.kamiwaza.ai/), and 
 singleDateFormat = '2 Jan 2006'
 
 # Collection to display on home
-# homeCollectionTitle = 'Posts'
-# homeCollection = 'posts'
+homeCollectionTitle = 'Posts'
+homeCollection = 'blogs'
 
 # Lists parameters
 paginationSize = 100

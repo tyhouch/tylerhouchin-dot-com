@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-10-21T21:51:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-10-21T21:51:26-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/maybe-simple-is-all-you-need/</loc>
+    <lastmod>2024-10-21T21:51:26-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/generative-ai/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
@@ -24,9 +30,6 @@
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai-infrastructure/</loc>
-    <lastmod>2024-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/entering-the-inference-era/</loc>
