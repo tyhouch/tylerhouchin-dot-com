@@ -2,49 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.tylerhouchin.com/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-11-09T11:25:02-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/</loc>
+    <lastmod>2024-11-09T11:25:02-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/maybe-simple-is-all-you-need/</loc>
     <lastmod>2024-10-21T21:51:26-07:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/blogs/</loc>
-    <lastmod>2024-10-21T21:51:26-07:00</lastmod>
-  </url><url>
-    <loc>https://www.tylerhouchin.com/blogs/maybe-simple-is-all-you-need/</loc>
-    <lastmod>2024-10-21T21:51:26-07:00</lastmod>
-  </url><url>
-    <loc>https://www.tylerhouchin.com/tags/generative-ai/</loc>
+    <loc>http://localhost:1313/tags/generative-ai/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/projects/hey/</loc>
+    <loc>http://localhost:1313/projects/hey/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/technology/</loc>
+    <loc>http://localhost:1313/tags/technology/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/ai-infrastructure/</loc>
+    <loc>http://localhost:1313/tags/ai-infrastructure/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/blogs/entering-the-inference-era/</loc>
+    <loc>http://localhost:1313/blogs/entering-the-inference-era/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/gpt-4/</loc>
+    <loc>http://localhost:1313/tags/gpt-4/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/gpt-o1/</loc>
+    <loc>http://localhost:1313/tags/gpt-o1/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/inference/</loc>
+    <loc>http://localhost:1313/tags/inference/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.tylerhouchin.com/tags/scaling-laws/</loc>
+    <loc>http://localhost:1313/tags/scaling-laws/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url>
 </urlset>

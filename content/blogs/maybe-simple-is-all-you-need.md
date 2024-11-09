@@ -1,8 +1,10 @@
-+++
-title = 'Maybe Simple Is All You Need'
-date = 2024-10-21T21:51:26-07:00
-draft = false
-+++
+---
+title: "Maybe Simple Is All You Need"
+date: 2024-10-21
+author: "Tyler Houchin"
+tags: ["AI", "LLMs", "Software Development", "CrewAI", "AutoGen", "Swarm", "Agentic Systems"]
+draft: false
+---
 
 Enabling self-improvement, where LLMs can autonomously make themselves better, is becoming increasingly feasible in the near future. These language models are already writing prod code (either via copy/paste or Cursor or whoever Devin's clients are), but we’re rapidly heading toward a future where they will also orchestrate entire workflows. This opens the door to the concept of 'single-use software': when the cost of producing software becomes so cheap that we just write code for everything. The problem isn’t a lack of tasks that could benefit from software, it’s that we lack the resources to develop customized solutions for every use case. Every industry is full of repetitive processes that could be optimized with code, but hiring a dev (or allocating the time of the devs you do have) just isn't worth it. Advanced frameworks like CrewAI and AutoGen are pushing the boundaries of what's possible in multi-agent systems, enabling role delegation, tool use, and task management. [I've played around with CrewAI](https://www.loom.com/share/cae1aa1bcf4d4a76a2406f1314c23a85) and GPT-4o/Claude were pretty good at helping get something running pretty fast, but they weren't zero-shotting it.
 

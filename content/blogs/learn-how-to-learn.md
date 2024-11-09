@@ -1,8 +1,10 @@
-+++
-title = 'Learn How to Learn'
-date = 2024-11-09T11:25:02-08:00
-draft = true
-+++
+---
+title: "Learn How to Learn"
+date: 2024-11-09
+author: "Tyler Houchin"
+tags: ["Learning", "Software Development", "AI", "Future of Programming", "Clear Thinking"]
+draft: false
+---
 
 In the future, your ability to create software won't be limited by your technical knowledge. It will be limited by how clearly you can think.
 Computing started with physical machines - we had to manually arrange circuits and transistors to make anything happen. Then we invented ways to encode instructions using just 1s and 0s. Next came human-readable instructions in assembly language. Then high-level languages like Python that let us write code almost like English. Now we're at LLMs that can turn plain English into working software. Each breakthrough moved us further from thinking like machines and closer to thinking like humans.

@@ -2,31 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tyler houchin</title>
-    <link>https://www.tylerhouchin.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on tyler houchin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 21:51:26 -0700</lastBuildDate>
-    <atom:link href="https://www.tylerhouchin.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn How to Learn</title>
+      <link>http://localhost:1313/blogs/learn-how-to-learn/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/learn-how-to-learn/</guid>
+      <description>&lt;p&gt;In the future, your ability to create software won&amp;rsquo;t be limited by your technical knowledge. It will be limited by how clearly you can think.&#xA;Computing started with physical machines - we had to manually arrange circuits and transistors to make anything happen. Then we invented ways to encode instructions using just 1s and 0s. Next came human-readable instructions in assembly language. Then high-level languages like Python that let us write code almost like English. Now we&amp;rsquo;re at LLMs that can turn plain English into working software. Each breakthrough moved us further from thinking like machines and closer to thinking like humans.&#xA;But here&amp;rsquo;s what&amp;rsquo;s really interesting: the next abstraction won&amp;rsquo;t be technical at all.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Maybe Simple Is All You Need</title>
-      <link>https://www.tylerhouchin.com/blogs/maybe-simple-is-all-you-need/</link>
-      <pubDate>Mon, 21 Oct 2024 21:51:26 -0700</pubDate>
-      <guid>https://www.tylerhouchin.com/blogs/maybe-simple-is-all-you-need/</guid>
+      <link>http://localhost:1313/blogs/maybe-simple-is-all-you-need/</link>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/maybe-simple-is-all-you-need/</guid>
       <description>&lt;p&gt;Enabling self-improvement, where LLMs can autonomously make themselves better, is becoming increasingly feasible in the near future. These language models are already writing prod code (either via copy/paste or Cursor or whoever Devin&amp;rsquo;s clients are), but we’re rapidly heading toward a future where they will also orchestrate entire workflows. This opens the door to the concept of &amp;lsquo;single-use software&amp;rsquo;: when the cost of producing software becomes so cheap that we just write code for everything. The problem isn’t a lack of tasks that could benefit from software, it’s that we lack the resources to develop customized solutions for every use case. Every industry is full of repetitive processes that could be optimized with code, but hiring a dev (or allocating the time of the devs you do have) just isn&amp;rsquo;t worth it. Advanced frameworks like CrewAI and AutoGen are pushing the boundaries of what&amp;rsquo;s possible in multi-agent systems, enabling role delegation, tool use, and task management. &lt;a href=&#34;https://www.loom.com/share/cae1aa1bcf4d4a76a2406f1314c23a85&#34;&gt;I&amp;rsquo;ve played around with CrewAI&lt;/a&gt; and GPT-4o/Claude were pretty good at helping get something running pretty fast, but they weren&amp;rsquo;t zero-shotting it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My New Project</title>
-      <link>https://www.tylerhouchin.com/projects/hey/</link>
+      <link>http://localhost:1313/projects/hey/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.tylerhouchin.com/projects/hey/</guid>
+      <guid>http://localhost:1313/projects/hey/</guid>
       <description>A short overview of my new project.</description>
     </item>
     <item>
       <title>Entering the Inference Era</title>
-      <link>https://www.tylerhouchin.com/blogs/entering-the-inference-era/</link>
+      <link>http://localhost:1313/blogs/entering-the-inference-era/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.tylerhouchin.com/blogs/entering-the-inference-era/</guid>
+      <guid>http://localhost:1313/blogs/entering-the-inference-era/</guid>
       <description>&lt;p&gt;In the world of AI, one of the most transformative insights has been the concept of &lt;strong&gt;scaling laws&lt;/strong&gt;—the idea that increasing the amount of compute, data, and model size leads to predictable gains in model intelligence. This principle became evident as AI models like GPT-3 and GPT-4 evolved. For example, GPT-3, with an estimated training cost of $10-20 million, was a massive leap forward in natural language understanding. However, GPT-4, with a training cost of around $100 million, required nearly 40 times more energy and compute than GPT-3. In return, it exhibited significantly improved language comprehension, reasoning, and overall intelligence. This increase in raw compute was a direct factor in the model’s heightened capabilities, demonstrating how scaling laws play out in the realm of model pre-training.&lt;/p&gt;</description>
     </item>
   </channel>
