@@ -1,0 +1,112 @@
+baseURL = "https://www.tylerhouchin.com/"
+relativeURLs = false
+canonifyURLs = false
+
+
+languageCode = 'en-us'
+title = 'tyler houchin'
+theme = 'typo'
+
+googleAnalytics = "G-T7BDS1PPF2"
+
+[taxonomies]
+tag = 'tags'
+
+
+
+[params]
+# Appearance settings
+theme = 'auto'
+# Meta description
+description = "Interested in generative AI, biotechnology, and sociology. Blogging to spark conversations and log thoughts as we approach AGI."
+mainSections = ["blogs", "projects"]
+
+# Appearance settings
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Welcome!'
+# Intro on main page, content is markdown
+homeIntroContent = """
+Hi, I'm Tyler! I'm currently building at [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
+"""
+
+
+singleDateFormat = '2 Jan 2006'
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'blogs'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '02 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+showFooter = true
+# footerContent = """Custom"""
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/tylerhouchin/"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/tyhouch"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/tyhouch"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "blogs"
+url = "/blogs"
+
+# [[params.menu]]
+# name = "projects"
+#url = "/projects"
+
+# [[params.menu]]
+# name = "library"
+# url = "/library"
+
+# [[params.menu]]
+# name = "tags"
+# url = "/tags"
+
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'bw'
+
+# Deploy settings
+
+[[deployment.matchers]]
+pattern = "^.+\\.(js|css|svg|ttf|woff2)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg|gif|webp)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[params.giscus]
+enable = false
+repo = "tomfran/blog"
+repoid = "R_kgDOLtSszw"
+category = "General"
+categoryid = "DIC_kwDOLtSsz84CfLm4"
+mapping = "pathname"
+theme = "preferred_color_scheme"
