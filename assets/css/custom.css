@@ -1,0 +1,9 @@
+/* Place custom css here */
+a {
+  color: #0077b5; /* This is a LinkedIn blue color, but you can choose any color you like */
+  text-decoration: none; /* This removes the underline */
+}
+
+a:hover {
+  text-decoration: underline; /* This adds an underline on hover */
+}
