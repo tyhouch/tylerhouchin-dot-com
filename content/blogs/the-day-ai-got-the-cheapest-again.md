@@ -11,7 +11,7 @@ Today's market reaction to DeepSeek's [R1 model](https://github.com/deepseek-ai/
 ![DeepSeek R1 Benchmarks](/images/blogs/the-day-ai-got-the-cheapest-again/benchmarks.jpg)
 *DeepSeek R1's performance benchmarks compared to leading models. AIME tests advanced mathematical reasoning, MATH-500 evaluates complex mathematical problem-solving, GPQA Diamond measures general knowledge and reasoning, LiveCode Bench tests coding ability, and CodeForces rates algorithmic problem-solving skills.*
 
-Their R1 model, performing on par with today's state-of-the-art systems, signals another step in AI's march toward accessibility (though in AI world, nobody can stay at the top of a leaderboard for long - and that's a very very good thing).
+Their R1 model, performing on par with today's state-of-the-art systems, signals another step in AI's march toward accessibility (though in AI world, nobody can stay at the top of a leaderboard for long - and that's a very very good thing). Also, the news about a high performing model from DeepSeek being trained for cheap was announced [last month](https://github.com/deepseek-ai/DeepSeek-V3/tree/main). R1 made it to the headlines though.
 
 But there's something interesting happening beneath the surface here.
 
