@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenAI on tyler houchin</title>
+    <link>http://localhost:1313/tags/openai/</link>
+    <description>Recent content in OpenAI on tyler houchin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Day AI Got the Cheapest Again</title>
+      <link>http://localhost:1313/blogs/the-day-ai-got-the-cheapest-again/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/the-day-ai-got-the-cheapest-again/</guid>
+      <description>&lt;p&gt;Yesterday&amp;rsquo;s market reaction to DeepSeek&amp;rsquo;s AI breakthrough was dramatic, to say the least. The Nasdaq dropped 3.1%, and Nvidia saw its stock plummet by 17% - the largest single-day market cap loss in Wall Street history. The narrative? A hedge fund&amp;rsquo;s ability to train powerful AI models at a fraction of the cost threatens the entire AI ecosystem.&lt;/p&gt;&#xA;&lt;p&gt;Their R1 model, performing on par with today&amp;rsquo;s state-of-the-art systems, signals another step in AI&amp;rsquo;s march toward accessibility (though in this fast-moving field, that benchmark will likely change soon - and that&amp;rsquo;s a good thing).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

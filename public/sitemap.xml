@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ai/</loc>
-    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blogs/</loc>
-    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/microsoft/</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/openai/</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/the-day-ai-got-the-cheapest-again/</loc>
+    <lastmod>2025-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blogs/the-speed-of-thought/</loc>
+    <lastmod>2024-12-16T18:51:21-08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/clear-thinking/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
@@ -24,9 +39,6 @@
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/software-development/</loc>
-    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/agentic-systems/</loc>
