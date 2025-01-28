@@ -6,7 +6,7 @@ tags: ["AI", "Nvidia", "OpenAI", "Infrastructure"]
 draft: false
 ---
 
-Today's market reaction to DeepSeek's [R1 model](https://github.com/deepseek-ai/DeepSeek-R1) breakthrough was dramatic. The Nasdaq dropped 3.1%, and Nvidia saw its stock plummet by 17% - the largest single-day market cap loss in Wall Street history. The narrative? A Chinese hedge fund's ability to train and run powerful AI models at a fraction of the cost threatens the entire AI ecosystem.
+Today's market reaction to DeepSeek's [R1 model](https://github.com/deepseek-ai/DeepSeek-R1) was dramatic. The Nasdaq dropped 3.1%, and Nvidia saw its stock plummet by 17% - the largest single-day market cap loss in Wall Street history. The narrative? A Chinese hedge fund's ability to train and run powerful AI models at a fraction of the cost threatens the entire AI ecosystem.
 
 ![DeepSeek R1 Benchmarks](/images/blogs/the-day-ai-got-the-cheapest-again/benchmarks.jpg)
 *DeepSeek R1's performance benchmarks compared to leading models. AIME tests advanced mathematical reasoning, MATH-500 evaluates complex mathematical problem-solving, GPQA Diamond measures general knowledge and reasoning, LiveCode Bench tests coding ability, and CodeForces rates algorithmic problem-solving skills.*
