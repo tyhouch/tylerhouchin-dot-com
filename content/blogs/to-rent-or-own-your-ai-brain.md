@@ -64,7 +64,7 @@ Last year, the gap between closed and open models was substantial. Today, it's o
 | **DeepSeek R1**     | 671B base (distilled versions available) | MoE          | 32K tokens     | Reasoning comparable to o1      |
 | **Llama 3.3 70B**   | 70B                                      | Dense        | 128K tokens    | General purpose, multilingual   |
 
-MoE models are a game‑changer for efficiency. They have hundreds of billions of parameters but only activate a small fraction for any given input. This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.
+Mixture of experts models are what make lots of these effiecency gains possible. They have hundreds of billions of parameters but only activate a small fraction for any given input. (Think - If I ask a question about making banana bread, do I need my East Asian History parameters activated?) This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.
 
 Further, quantization makes it easier to run substantial models on consumer‑grade hardware or modest cloud instances.
 
