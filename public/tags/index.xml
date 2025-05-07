@@ -2,150 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on tyler houchin</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:64303/tags/</link>
     <description>Recent content in Tags on tyler houchin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 May 2025 13:57:10 -0400</lastBuildDate>
+    <atom:link href="http://localhost:64303/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <link>http://localhost:64303/tags/ai/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/ai/</guid>
       <description></description>
     </item>
     <item>
-      <title>Infrastructure</title>
-      <link>http://localhost:1313/tags/infrastructure/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/infrastructure/</guid>
+      <title>Anthropic</title>
+      <link>http://localhost:64303/tags/anthropic/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/anthropic/</guid>
       <description></description>
     </item>
     <item>
-      <title>Nvidia</title>
-      <link>http://localhost:1313/tags/nvidia/</link>
-      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nvidia/</guid>
+      <title>Llama</title>
+      <link>http://localhost:64303/tags/llama/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/llama/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open Source</title>
+      <link>http://localhost:64303/tags/open-source/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/open-source/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenAI</title>
-      <link>http://localhost:1313/tags/openai/</link>
+      <link>http://localhost:64303/tags/openai/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qwen</title>
+      <link>http://localhost:64303/tags/qwen/</link>
+      <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
+      <guid>http://localhost:64303/tags/qwen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>http://localhost:64303/tags/infrastructure/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/openai/</guid>
+      <guid>http://localhost:64303/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvidia</title>
+      <link>http://localhost:64303/tags/nvidia/</link>
+      <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64303/tags/nvidia/</guid>
       <description></description>
     </item>
     <item>
       <title>Clear Thinking</title>
-      <link>http://localhost:1313/tags/clear-thinking/</link>
+      <link>http://localhost:64303/tags/clear-thinking/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/clear-thinking/</guid>
+      <guid>http://localhost:64303/tags/clear-thinking/</guid>
       <description></description>
     </item>
     <item>
       <title>Future of Programming</title>
-      <link>http://localhost:1313/tags/future-of-programming/</link>
+      <link>http://localhost:64303/tags/future-of-programming/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/future-of-programming/</guid>
+      <guid>http://localhost:64303/tags/future-of-programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Learning</title>
-      <link>http://localhost:1313/tags/learning/</link>
+      <link>http://localhost:64303/tags/learning/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/learning/</guid>
+      <guid>http://localhost:64303/tags/learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Software Development</title>
-      <link>http://localhost:1313/tags/software-development/</link>
+      <link>http://localhost:64303/tags/software-development/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/software-development/</guid>
+      <guid>http://localhost:64303/tags/software-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Agentic Systems</title>
-      <link>http://localhost:1313/tags/agentic-systems/</link>
+      <link>http://localhost:64303/tags/agentic-systems/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/agentic-systems/</guid>
+      <guid>http://localhost:64303/tags/agentic-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>AutoGen</title>
-      <link>http://localhost:1313/tags/autogen/</link>
+      <link>http://localhost:64303/tags/autogen/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/autogen/</guid>
+      <guid>http://localhost:64303/tags/autogen/</guid>
       <description></description>
     </item>
     <item>
       <title>CrewAI</title>
-      <link>http://localhost:1313/tags/crewai/</link>
+      <link>http://localhost:64303/tags/crewai/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/crewai/</guid>
+      <guid>http://localhost:64303/tags/crewai/</guid>
       <description></description>
     </item>
     <item>
       <title>LLMs</title>
-      <link>http://localhost:1313/tags/llms/</link>
+      <link>http://localhost:64303/tags/llms/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/llms/</guid>
+      <guid>http://localhost:64303/tags/llms/</guid>
       <description></description>
     </item>
     <item>
       <title>Swarm</title>
-      <link>http://localhost:1313/tags/swarm/</link>
+      <link>http://localhost:64303/tags/swarm/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/swarm/</guid>
+      <guid>http://localhost:64303/tags/swarm/</guid>
       <description></description>
     </item>
     <item>
       <title>Generative AI</title>
-      <link>http://localhost:1313/tags/generative-ai/</link>
+      <link>http://localhost:64303/tags/generative-ai/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/generative-ai/</guid>
+      <guid>http://localhost:64303/tags/generative-ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <link>http://localhost:64303/tags/technology/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>http://localhost:64303/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>AI Infrastructure</title>
-      <link>http://localhost:1313/tags/ai-infrastructure/</link>
+      <link>http://localhost:64303/tags/ai-infrastructure/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai-infrastructure/</guid>
+      <guid>http://localhost:64303/tags/ai-infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>GPT-4</title>
-      <link>http://localhost:1313/tags/gpt-4/</link>
+      <link>http://localhost:64303/tags/gpt-4/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gpt-4/</guid>
+      <guid>http://localhost:64303/tags/gpt-4/</guid>
       <description></description>
     </item>
     <item>
       <title>GPT-O1</title>
-      <link>http://localhost:1313/tags/gpt-o1/</link>
+      <link>http://localhost:64303/tags/gpt-o1/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/gpt-o1/</guid>
+      <guid>http://localhost:64303/tags/gpt-o1/</guid>
       <description></description>
     </item>
     <item>
       <title>Inference</title>
-      <link>http://localhost:1313/tags/inference/</link>
+      <link>http://localhost:64303/tags/inference/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/inference/</guid>
+      <guid>http://localhost:64303/tags/inference/</guid>
       <description></description>
     </item>
     <item>
       <title>Scaling Laws</title>
-      <link>http://localhost:1313/tags/scaling-laws/</link>
+      <link>http://localhost:64303/tags/scaling-laws/</link>
       <pubDate>Sun, 06 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/scaling-laws/</guid>
+      <guid>http://localhost:64303/tags/scaling-laws/</guid>
       <description></description>
     </item>
   </channel>

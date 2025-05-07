@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clear Thinking on tyler houchin</title>
-    <link>http://localhost:1313/tags/clear-thinking/</link>
+    <link>http://localhost:64303/tags/clear-thinking/</link>
     <description>Recent content in Clear Thinking on tyler houchin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/clear-thinking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64303/tags/clear-thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn How to Learn</title>
-      <link>http://localhost:1313/blogs/learn-how-to-learn/</link>
+      <link>http://localhost:64303/blogs/learn-how-to-learn/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blogs/learn-how-to-learn/</guid>
+      <guid>http://localhost:64303/blogs/learn-how-to-learn/</guid>
       <description>&lt;p&gt;In the future, your ability to create software won&amp;rsquo;t be limited by your technical knowledge. It will be limited by how clearly you can think.&#xA;Computing started with physical machines - we had to manually arrange circuits and transistors to make anything happen. Then we invented ways to encode instructions using just 1s and 0s. Next came human-readable instructions in assembly language. Then high-level languages like Python that let us write code almost like English. Now we&amp;rsquo;re at LLMs that can turn plain English into working software. Each breakthrough moved us further from thinking like machines and closer to thinking like humans.&#xA;But here&amp;rsquo;s what&amp;rsquo;s really interesting: the next abstraction won&amp;rsquo;t be technical at all.&lt;/p&gt;</description>
     </item>
   </channel>
