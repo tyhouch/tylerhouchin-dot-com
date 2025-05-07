@@ -17,7 +17,7 @@ Looking at recent benchmarks, it's clear that small open source models are now m
 
 A 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn't to say the frontier models aren't the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks.
 
-## The Economics of Choice
+## The ~~Economics~~ Tokenomics of Choice
 
 There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but the economics have shifted dramatically in favor of self-hosting for many use cases.
 
