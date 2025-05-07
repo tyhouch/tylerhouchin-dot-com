@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Infrastructure on tyler houchin</title>
-    <link>http://localhost:64303/tags/infrastructure/</link>
+    <link>http://localhost:64435/tags/infrastructure/</link>
     <description>Recent content in Infrastructure on tyler houchin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64303/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64435/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Day AI Got the Cheapest Again</title>
-      <link>http://localhost:64303/blogs/the-day-ai-got-the-cheapest-again/</link>
+      <link>http://localhost:64435/blogs/the-day-ai-got-the-cheapest-again/</link>
       <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64303/blogs/the-day-ai-got-the-cheapest-again/</guid>
+      <guid>http://localhost:64435/blogs/the-day-ai-got-the-cheapest-again/</guid>
       <description>&lt;p&gt;Today&amp;rsquo;s market reaction to DeepSeek&amp;rsquo;s &lt;a href=&#34;https://github.com/deepseek-ai/DeepSeek-R1&#34;&gt;R1 model&lt;/a&gt; was dramatic. The Nasdaq dropped 3.1%, and Nvidia saw its stock plummet by 17% - the largest single-day market cap loss in Wall Street history. The narrative? A Chinese hedge fund&amp;rsquo;s ability to train and run powerful AI models at a fraction of the cost threatens the entire AI ecosystem.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;figure class=&#34;&#34;&gt;&#xA;&#xA;    &lt;div&gt;&#xA;        &lt;img loading=&#34;lazy&#34; alt=&#34;DeepSeek R1 Benchmarks&#34; src=&#34; /images/blogs/the-day-ai-got-the-cheapest-again/benchmarks.jpg&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;    &#xA;&lt;/figure&gt;&#xA;&lt;em&gt;DeepSeek R1&amp;rsquo;s performance benchmarks compared to leading models. AIME tests advanced mathematical reasoning, MATH-500 evaluates complex mathematical problem-solving, GPQA Diamond measures general knowledge and reasoning, LiveCode Bench tests coding ability, and CodeForces rates algorithmic problem-solving skills.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
