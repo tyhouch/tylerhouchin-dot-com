@@ -9,10 +9,10 @@ A year ago, everyone wanted access to the most powerful AI models available. GPT
 
 Around August 2024 is when I started saying something like "even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence." Well, now we have that level of intelligence, and it can run on the compute of an iPhone.
 
-Looking at recent benchmarks, it's clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. 
+Looking at recent benchmarks, it's clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. 
 
 
-![Qwen3 Benchmarks](/images/blogs/qwen3.jpg)
+![Qwen3 Benchmarks](/images/blogs/rent-or-own/qwen3.jpg)
 
 
 A 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn't to say the frontier models aren't the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks.
