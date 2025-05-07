@@ -90,6 +90,9 @@ url = "/blogs"
 [markup.highlight]
 style = 'bw'
 
+[markup.goldmark.renderer]
+unsafe = true
+
 # Deploy settings
 
 [[deployment.matchers]]

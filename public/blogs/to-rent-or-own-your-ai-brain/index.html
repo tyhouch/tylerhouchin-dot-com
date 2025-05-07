@@ -2,17 +2,17 @@
 <html lang="en-us"
   dir="ltr">
 
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61103&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
 
 
-<link rel="icon" type="image/ico" href="http://localhost:61103//favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:61103//favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:61103//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:61103//android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:61103//apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
@@ -22,7 +22,7 @@
     
 </title>
 
-<link rel="canonical" href="http://localhost:61103/blogs/to-rent-or-own-your-ai-brain/"/>
+<link rel="canonical" href="http://localhost:1313/blogs/to-rent-or-own-your-ai-brain/"/>
 
 
 
@@ -38,9 +38,30 @@
 <link rel="stylesheet" href="/assets/combined.min.7a7da93198dfce6f15598e04c2ac1fb816c1c43554340ef36fa025ed8f90a119.css" media="all">
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 
 
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false},
+                {left: "\\[", right: "\\]", display: true}
+            ],
+            throwOnError: false
+        });
+    });
+</script> 
+
+ 
   </head>
 
   
@@ -434,25 +455,21 @@
 <p>A single active user having 30 interactions daily with an assistant generates about 1 million tokens monthly. With just 40‑50 such users, you&rsquo;re already at the break‑even point for smaller models.</p>
 <hr>
 <h2 id="understanding-the-breakeven-point"><strong>Understanding the Break‑Even Point</strong></h2>
-<blockquote>
-<p><strong>Formula:</strong>
-$$Tokens_{BE} = \dfrac{\text{Monthly Fixed Cost}}{\bigl($ / \text{token}<em>{API} - $ / \text{token}</em>{Self}\bigr)}$$</p>
 <p>Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.</p>
-</blockquote>
-<h3 id="worked-example-7b-model-vs-gpt41-api">Worked Example (7 B model vs. GPT‑4.1 API)</h3>
+<h3 id="worked-example-7-b-model-vs-gpt41-api">Worked Example (7 B model vs. GPT‑4.1 API)</h3>
 <ol>
-<li><strong>API unit cost:</strong> GPT‑4.1 ≈ <strong>$10 / M tokens</strong> (input + output).</li>
-<li><strong>Self‑host variable cost:</strong> Electricity + cooling ≈ <strong>$0.50 / M tokens</strong>.</li>
-<li><strong>Monthly fixed cost:</strong> Hardware + colo + ¼ FTE DevOps ≈ <strong>$3 000</strong>.</li>
+<li><strong>API unit cost:</strong> GPT‑4.1 ≈ <strong>$10 / M tokens</strong> (input + output).</li>
+<li><strong>Self‑host variable cost:</strong> Electricity + cooling ≈ <strong>$0.50 / M tokens</strong>.</li>
+<li><strong>Monthly fixed cost:</strong> Hardware + colo + ¼ FTE DevOps ≈ <strong>$3 000</strong>.</li>
 <li><strong>Break‑even tokens:</strong>
-$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$</li>
+$$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$$</li>
 </ol>
 <blockquote>
-<p><strong>≈ 316 M tokens per month</strong> (about 10 M per day). Beyond this, every token you keep on‑prem saves money.</p>
+<p><strong>≈ 316 M tokens per month</strong> (about 10 M per day). Beyond this, every token you keep on‑prem saves money.</p>
 </blockquote>
 <h3 id="why-many-teams-break-even-earlier">Why Many Teams Break Even Earlier</h3>
 <ul>
-<li>Most traffic <em>doesn&rsquo;t</em> need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to <strong>$5 / M tokens</strong> → break‑even falls to <strong>~60 M tokens/month</strong>.</li>
+<li>Most traffic <em>doesn&rsquo;t</em> need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to <strong>$5 / M tokens</strong> → break‑even falls to <strong>~60 M tokens/month</strong>.</li>
 <li>Automation (yes, Kamiwaza Agents again) squeezes the biggest line‑item – <strong>people</strong> – shrinking the fixed‑cost numerator.</li>
 </ul>
 <hr>
@@ -461,9 +478,9 @@ $\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$</
 <p>This is wasteful. For many business applications—customer service, content summarization, document retrieval—smaller models now perform extremely well. These are precisely the high‑volume, predictable workloads that benefit most from self‑hosting.</p>
 <p>Additionally, <strong>distillation</strong> lets you bottle‑feed a smaller, cheaper model with the domain expertise of a frontier‑scale &ldquo;teacher.&rdquo;</p>
 <ul>
-<li><strong>Step 1 — Sample:</strong> Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).</li>
-<li><strong>Step 2 — Train:</strong> Fine‑tune a small (7‑13 B) &ldquo;student&rdquo; on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher’s accuracy at a fraction of the compute.</li>
-<li><strong>Step 3 — Serve:</strong> Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross ~40 M tokens/month.</li>
+<li><strong>Step 1 — Sample:</strong> Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).</li>
+<li><strong>Step 2 — Train:</strong> Fine‑tune a small (7‑13 B) &ldquo;student&rdquo; on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher&rsquo;s accuracy at a fraction of the compute.</li>
+<li><strong>Step 3 — Serve:</strong> Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross ~40 M tokens/month.</li>
 </ul>
 <p>With this approach you <strong>own</strong> <strong>the smarts you care about</strong> and keep the rental fees for frontier models reserved for genuinely novel or edge‑case queries.</p>
 <h2 id="what-this-means-for-different-companies">What This Means for Different Companies</h2>

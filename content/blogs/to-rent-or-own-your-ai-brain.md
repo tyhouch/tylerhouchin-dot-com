@@ -100,24 +100,21 @@ A single active user having 30 interactions daily with an assistant generates ab
 
 ## **Understanding the Break‑Even Point**
 
-> **Formula:**
-> $$Tokens_{BE} = \dfrac{\text{Monthly Fixed Cost}}{\bigl(\$ / \text{token}_{API} - \$ / \text{token}_{Self}\bigr)}$$
->
-> Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.
+Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.
 
-### Worked Example (7 B model vs. GPT‑4.1 API)
+### Worked Example (7 B model vs. GPT‑4.1 API)
 
-1. **API unit cost:** GPT‑4.1 ≈ **\$10 / M tokens** (input + output).
-2. **Self‑host variable cost:** Electricity + cooling ≈ **\$0.50 / M tokens**.
-3. **Monthly fixed cost:** Hardware + colo + ¼ FTE DevOps ≈ **\$3 000**.
+1. **API unit cost:** GPT‑4.1 ≈ **\$10 / M tokens** (input + output).
+2. **Self‑host variable cost:** Electricity + cooling ≈ **\$0.50 / M tokens**.
+3. **Monthly fixed cost:** Hardware + colo + ¼ FTE DevOps ≈ **\$3 000**.
 4. **Break‑even tokens:**
-   $\dfrac{3\,000}{(10 - 0.5)/1\,000\,000} \approx 3.16\times10^8 \text{ tokens/mo}$
+   $$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$$
 
-> **≈ 316 M tokens per month** (about 10 M per day). Beyond this, every token you keep on‑prem saves money.
+> **≈ 316 M tokens per month** (about 10 M per day). Beyond this, every token you keep on‑prem saves money.
 
 ### Why Many Teams Break Even Earlier
 
-* Most traffic *doesn't* need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to **\$5 / M tokens** → break‑even falls to **\~60 M tokens/month**.
+* Most traffic *doesn't* need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to **\$5 / M tokens** → break‑even falls to **\~60 M tokens/month**.
 * Automation (yes, Kamiwaza Agents again) squeezes the biggest line‑item – **people** – shrinking the fixed‑cost numerator.
 
 ---
@@ -130,9 +127,9 @@ This is wasteful. For many business applications—customer service, content sum
 
 Additionally, **distillation** lets you bottle‑feed a smaller, cheaper model with the domain expertise of a frontier‑scale "teacher."
 
-* **Step 1 — Sample:** Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).
-* **Step 2 — Train:** Fine‑tune a small (7‑13 B) "student" on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher’s accuracy at a fraction of the compute.
-* **Step 3 — Serve:** Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross \~40 M tokens/month.
+* **Step 1 — Sample:** Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).
+* **Step 2 — Train:** Fine‑tune a small (7‑13 B) "student" on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher's accuracy at a fraction of the compute.
+* **Step 3 — Serve:** Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross \~40 M tokens/month.
 
 With this approach you **own** **the smarts you care about** and keep the rental fees for frontier models reserved for genuinely novel or edge‑case queries.
 
