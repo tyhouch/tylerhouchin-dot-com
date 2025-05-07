@@ -101,7 +101,7 @@ A single active user having 30 interactions daily with an assistant generates ab
 
 ---
 
-## **Understanding the Break‑Even Point**
+## **The Break‑Even Point**
 
 Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.
 
@@ -162,7 +162,7 @@ The most effective approach is to implement an orchestration layer that intellig
 
 For an enterprise processing 1 billion tokens monthly (which will soon be the norm, not the exception), the difference between pure API usage and intelligent deployment can easily exceed \$5‑10 million annually.
 
-## This Isn't Religious, It's Practical
+## This Isn't Religious
 
 The question isn't whether closed or open source models are "better" in some absolute sense. It's about matching the right model to each task based on capability requirements and usage volume.
 
