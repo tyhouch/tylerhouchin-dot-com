@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=61103&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="http://localhost:61103//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:61103//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:61103//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:61103//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:61103//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    To Rent or Own Your Ai Brain | tyler houchin
+    
+</title>
+
+<link rel="canonical" href="http://localhost:61103/blogs/to-rent-or-own-your-ai-brain/"/>
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/combined.min.7a7da93198dfce6f15598e04c2ac1fb816c1c43554340ef36fa025ed8f90a119.css" media="all">
+
+
+
+
+
+  </head>
+
+  
+
+  
+  
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">tyler houchin</h1>
+
+    <div class="flex">
+        
+
+        
+        
+      
+        <p class="small ">
+            <a href="/" >
+                /home
+            </a>
+        </p>
+        
+      
+        <p class="small ">
+            <a href="/blogs" >
+                /blogs
+            </a>
+        </p>
+        
+        
+    </div>
+
+    
+
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+<div class="breadcrumbs">
+    
+    <a href="/"></a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a href="/blogs/">Blogs</a>
+    <span class="breadcrumbs-separator"> > </span>
+    
+    <a class="breadcrumbs-current" href="/blogs/to-rent-or-own-your-ai-brain/">To Rent or Own Your Ai Brain</a>
+</div>
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">To Rent or Own Your Ai Brain</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2025-05-07T13:57:10-04:00">7 May 2025</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <h1 id="to-rent-or-own-your-ai-agents-brains">To Rent or Own Your AI Agents&rsquo; Brains</h1>
+<p>A year ago, everyone wanted access to the most powerful AI models available. GPT-4o was the gold standard, and companies were willing to pay premium prices for that level of capability.</p>
+<p>Around August 2024 is when I started saying something like &ldquo;even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence.&rdquo; Well, now we have that level of intelligence, and it can run on the compute of an iPhone.</p>
+<p>Looking at recent benchmarks, it&rsquo;s clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. </p>
+<p>A 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn&rsquo;t to say the frontier models aren&rsquo;t the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks.</p>
+<h2 id="the-economics-of-choice">The Economics of Choice</h2>
+<p>There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but the economics have shifted dramatically in favor of self-hosting for many use cases.</p>
+<p>Here&rsquo;s what leading model providers charge:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Provider/Model</th>
+          <th style="text-align: left">Input Cost (per 1M tokens)</th>
+          <th style="text-align: left">Output Cost (per 1M tokens)</th>
+          <th style="text-align: left">Context Window</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>OpenAI</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GPT-4.1</td>
+          <td style="text-align: left">$2.00</td>
+          <td style="text-align: left">$8.00</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GPT-4.1 mini</td>
+          <td style="text-align: left">$0.40</td>
+          <td style="text-align: left">$1.60</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">GPT-4.1 nano</td>
+          <td style="text-align: left">$0.10</td>
+          <td style="text-align: left">$0.40</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">o3-mini</td>
+          <td style="text-align: left">$1.10</td>
+          <td style="text-align: left">$4.40</td>
+          <td style="text-align: left">200K tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">o1</td>
+          <td style="text-align: left">$15.00</td>
+          <td style="text-align: left">$60.00</td>
+          <td style="text-align: left">128K tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Anthropic</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Claude 3.7 Sonnet</td>
+          <td style="text-align: left">$3.00</td>
+          <td style="text-align: left">$15.00</td>
+          <td style="text-align: left">200K tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Claude 3.5 Haiku</td>
+          <td style="text-align: left">$1.00</td>
+          <td style="text-align: left">$5.00</td>
+          <td style="text-align: left">200K tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Claude 3 Haiku</td>
+          <td style="text-align: left">$0.25</td>
+          <td style="text-align: left">$1.25</td>
+          <td style="text-align: left">200K tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Google</strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Gemini 2.5 Flash (standard)</td>
+          <td style="text-align: left">$0.15</td>
+          <td style="text-align: left">$0.60</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Gemini 2.5 Flash (thinking)</td>
+          <td style="text-align: left">$0.15</td>
+          <td style="text-align: left">$3.50</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Gemini 2.0 Flash</td>
+          <td style="text-align: left">$0.10</td>
+          <td style="text-align: left">$0.40</td>
+          <td style="text-align: left">1M tokens</td>
+      </tr>
+  </tbody>
+</table>
+<p>These prices are perfectly linear (as far as they&rsquo;re advertised), you pay the same per token whether you use 1 million or 1 billion. It&rsquo;s worth recognizing <strong>you&rsquo;re not paying for compute alone,</strong> but also R&amp;D amortization and profit margins.</p>
+<p>At scale, these monthly costs add up:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Monthly Volume</th>
+          <th style="text-align: left">GPT-4.1</th>
+          <th style="text-align: left">Claude 3.7 Sonnet</th>
+          <th style="text-align: left">Gemini 2.5 Flash</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Low (3M tokens)</td>
+          <td style="text-align: left">$19.50</td>
+          <td style="text-align: left">$36.00</td>
+          <td style="text-align: left">$1.46</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Medium (30M tokens)</td>
+          <td style="text-align: left">$195.00</td>
+          <td style="text-align: left">$360.00</td>
+          <td style="text-align: left">$14.63</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">High (300M tokens)</td>
+          <td style="text-align: left">$1,950.00</td>
+          <td style="text-align: left">$3,600.00</td>
+          <td style="text-align: left">$146.25</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Enterprise (3B tokens)</td>
+          <td style="text-align: left">$19,500.00</td>
+          <td style="text-align: left">$36,000.00</td>
+          <td style="text-align: left">$1,462.50</td>
+      </tr>
+  </tbody>
+</table>
+<p>Token volumes are growing exponentially as companies build more AI applications. What&rsquo;s 3B tokens today <strong>will</strong> be 30B next year as AI gets integrated into more systems and processes. Reasoning models (where the model outputs thousands of thinking tokens BEFORE it even responds) further add to this increase.</p>
+<h2 id="the-selfhosted-option">The Self‑Hosted Option</h2>
+<p>Last year, the gap between closed and open models was substantial. Today, it&rsquo;s often a matter of subjective preference often called &lsquo;vibes&rsquo;. When we are interacting with LLMs in a multi-turn, conversational format vibes matter! But when we are building LLM Workflows to automate business processes, objective cababilities are what to pay attention to.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Model</th>
+          <th style="text-align: left">Parameters</th>
+          <th style="text-align: left">Architecture</th>
+          <th style="text-align: left">Context Window</th>
+          <th style="text-align: left">Key Strengths</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Qwen3-235B-A22B</strong></td>
+          <td style="text-align: left">235B total (22B active)</td>
+          <td style="text-align: left">MoE</td>
+          <td style="text-align: left">131K tokens</td>
+          <td style="text-align: left">Coding, reasoning capabilities</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>DeepSeek V3</strong></td>
+          <td style="text-align: left">671B total (37B active)</td>
+          <td style="text-align: left">MoE</td>
+          <td style="text-align: left">128K tokens</td>
+          <td style="text-align: left">Math, coding, educational tasks</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>DeepSeek R1</strong></td>
+          <td style="text-align: left">671B base (distilled versions available)</td>
+          <td style="text-align: left">MoE</td>
+          <td style="text-align: left">32K tokens</td>
+          <td style="text-align: left">Reasoning comparable to o1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Llama 3.3 70B</strong></td>
+          <td style="text-align: left">70B</td>
+          <td style="text-align: left">Dense</td>
+          <td style="text-align: left">128K tokens</td>
+          <td style="text-align: left">General purpose, multilingual</td>
+      </tr>
+  </tbody>
+</table>
+<p>MoE models are a game‑changer for efficiency. They have hundreds of billions of parameters but only activate a small fraction for any given input. This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.</p>
+<p>Further, quantization makes it easier to run substantial models on consumer‑grade hardware or modest cloud instances.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Model Size</th>
+          <th style="text-align: left">Minimum VRAM (FP16)</th>
+          <th style="text-align: left">With 8‑bit Quantization</th>
+          <th style="text-align: left">With 4‑bit Quantization</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">7‑8B models</td>
+          <td style="text-align: left">16GB</td>
+          <td style="text-align: left">8GB</td>
+          <td style="text-align: left">4GB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">30‑40B models</td>
+          <td style="text-align: left">60GB</td>
+          <td style="text-align: left">30GB</td>
+          <td style="text-align: left">15GB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">70B models</td>
+          <td style="text-align: left">140GB</td>
+          <td style="text-align: left">70GB</td>
+          <td style="text-align: left">35GB</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">100B+ MoE</td>
+          <td style="text-align: left">~80GB (active params)</td>
+          <td style="text-align: left">~40GB</td>
+          <td style="text-align: left">~20GB</td>
+      </tr>
+  </tbody>
+</table>
+<p>Of course, hardware is only part of the equation. The full cost of self‑hosting includes:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Cost Category</th>
+          <th style="text-align: left">Annual Cost</th>
+          <th style="text-align: left">% of Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Hardware maintenance</td>
+          <td style="text-align: left">$100K‑$300K</td>
+          <td style="text-align: left">15‑25%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Staff</td>
+          <td style="text-align: left">$520K‑$830K</td>
+          <td style="text-align: left">40‑60%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Data center/colocation</td>
+          <td style="text-align: left">$144K‑$288K</td>
+          <td style="text-align: left">10‑20%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Electricity</td>
+          <td style="text-align: left">$58K‑$175K</td>
+          <td style="text-align: left">5‑15%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Software/licenses</td>
+          <td style="text-align: left">$50K‑$150K</td>
+          <td style="text-align: left">5‑10%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Total Annual OpEx</strong></td>
+          <td style="text-align: left"><strong>$872K‑$1.74M</strong></td>
+          <td style="text-align: left"><strong>100%</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>People are the biggest expense, not the GPUs. But Kamiwaza&rsquo;s AI Agents will help with that :)</p>
+<h2 id="when-does-selfhosting-make-sense">When Does Self‑Hosting Make Sense?</h2>
+<p>The break‑even calculation depends on volume:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Model Size</th>
+          <th style="text-align: left">Break‑Even Point (tokens/month)</th>
+          <th style="text-align: left">Monthly Fixed Cost</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">7B models</td>
+          <td style="text-align: left">~40‑50 million</td>
+          <td style="text-align: left">$2,000‑3,000</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">70B models</td>
+          <td style="text-align: left">~150‑200 million</td>
+          <td style="text-align: left">$15,000‑20,000</td>
+      </tr>
+  </tbody>
+</table>
+<p>A single active user having 30 interactions daily with an assistant generates about 1 million tokens monthly. With just 40‑50 such users, you&rsquo;re already at the break‑even point for smaller models.</p>
+<hr>
+<h2 id="understanding-the-breakeven-point"><strong>Understanding the Break‑Even Point</strong></h2>
+<blockquote>
+<p><strong>Formula:</strong>
+$$Tokens_{BE} = \dfrac{\text{Monthly Fixed Cost}}{\bigl($ / \text{token}<em>{API} - $ / \text{token}</em>{Self}\bigr)}$$</p>
+<p>Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.</p>
+</blockquote>
+<h3 id="worked-example-7b-model-vs-gpt41-api">Worked Example (7 B model vs. GPT‑4.1 API)</h3>
+<ol>
+<li><strong>API unit cost:</strong> GPT‑4.1 ≈ <strong>$10 / M tokens</strong> (input + output).</li>
+<li><strong>Self‑host variable cost:</strong> Electricity + cooling ≈ <strong>$0.50 / M tokens</strong>.</li>
+<li><strong>Monthly fixed cost:</strong> Hardware + colo + ¼ FTE DevOps ≈ <strong>$3 000</strong>.</li>
+<li><strong>Break‑even tokens:</strong>
+$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$</li>
+</ol>
+<blockquote>
+<p><strong>≈ 316 M tokens per month</strong> (about 10 M per day). Beyond this, every token you keep on‑prem saves money.</p>
+</blockquote>
+<h3 id="why-many-teams-break-even-earlier">Why Many Teams Break Even Earlier</h3>
+<ul>
+<li>Most traffic <em>doesn&rsquo;t</em> need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to <strong>$5 / M tokens</strong> → break‑even falls to <strong>~60 M tokens/month</strong>.</li>
+<li>Automation (yes, Kamiwaza Agents again) squeezes the biggest line‑item – <strong>people</strong> – shrinking the fixed‑cost numerator.</li>
+</ul>
+<hr>
+<h2 id="matching-models-to-use-cases">Matching Models to Use Cases</h2>
+<p>The most important insight is this: different tasks require different levels of capability. We&rsquo;ve been in a one‑size‑fits‑all mindset, using the same top‑tier models for everything from summarizing meeting notes to complex programmings tasks.</p>
+<p>This is wasteful. For many business applications—customer service, content summarization, document retrieval—smaller models now perform extremely well. These are precisely the high‑volume, predictable workloads that benefit most from self‑hosting.</p>
+<p>Additionally, <strong>distillation</strong> lets you bottle‑feed a smaller, cheaper model with the domain expertise of a frontier‑scale &ldquo;teacher.&rdquo;</p>
+<ul>
+<li><strong>Step 1 — Sample:</strong> Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).</li>
+<li><strong>Step 2 — Train:</strong> Fine‑tune a small (7‑13 B) &ldquo;student&rdquo; on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher’s accuracy at a fraction of the compute.</li>
+<li><strong>Step 3 — Serve:</strong> Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross ~40 M tokens/month.</li>
+</ul>
+<p>With this approach you <strong>own</strong> <strong>the smarts you care about</strong> and keep the rental fees for frontier models reserved for genuinely novel or edge‑case queries.</p>
+<h2 id="what-this-means-for-different-companies">What This Means for Different Companies</h2>
+<h3 id="startups">Startups</h3>
+<p>If you&rsquo;re a startup, start with APIs. At low volumes (1‑10 million tokens monthly), they make financial sense, and your engineering time is better spent building product.</p>
+<p>When you hit about 40‑50 million tokens monthly, look at your usage patterns. If you have specific high‑volume, predictable workloads, that&rsquo;s where to start self‑hosting.</p>
+<h3 id="midsized-companies">Mid‑sized Companies</h3>
+<p>If you&rsquo;re processing 10‑100 million tokens monthly, you should consider a hybrid approach:</p>
+<ul>
+<li>Self‑host for high‑volume, predictable tasks</li>
+<li>Use APIs for complex reasoning and unpredictable workloads</li>
+<li>Focus on model selection for specific use cases</li>
+</ul>
+<p>Analyze your AI usage and identify which workloads could be handled by smaller, self‑hosted models without sacrificing quality.</p>
+<h3 id="enterprises">Enterprises</h3>
+<p>If you&rsquo;re processing 100+ million tokens monthly, you can&rsquo;t afford to ignore the self‑hosting option for at least some of your workloads.</p>
+<p>The most effective approach is to implement an orchestration layer that intelligently routes requests to the right model based on requirements. Maintain a portfolio of self‑hosted models for core functionality and reserve API calls for specialized needs.</p>
+<p>For an enterprise processing 1 billion tokens monthly (which will soon be the norm, not the exception), the difference between pure API usage and intelligent deployment can easily exceed $5‑10 million annually.</p>
+<h2 id="this-isnt-religious-its-practical">This Isn&rsquo;t Religious, It&rsquo;s Practical</h2>
+<p>The question isn&rsquo;t whether closed or open source models are &ldquo;better&rdquo; in some absolute sense. It&rsquo;s about matching the right model to each task based on capability requirements and usage volume.</p>
+<p>The most successful AI strategies treat this as an ongoing optimization problem rather than a one‑time decision. They start with APIs for flexibility, gradually identify workloads suitable for self‑hosting, and continuously reevaluate as both their needs and the market evolve.</p>
+<p>A year ago, the capability gap between open source and closed source models made this a difficult tradeoff. Today, with small models performing at levels that were cutting‑edge just a year ago, the economics have fundamentally changed.</p>
+<p>We&rsquo;re entering an era where intelligence is becoming a commodity that is available in various sizes and price points to match different needs. The companies that thrive will be those that understand this shift and optimize accordingly.</p>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/blogs/the-day-ai-got-the-cheapest-again/">
+                        The Day AI Got the Cheapest Again
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag2 on tyler houchin</title>
+    <link>http://localhost:1313/tags/tag2/</link>
+    <description>Recent content in Tag2 on tyler houchin</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To Rent or Own Your AI Agents&#39; Brains</title>
+      <link>http://localhost:1313/blogs/to-rent-or-own/</link>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blogs/to-rent-or-own/</guid>
+      <description>&lt;h1 id=&#34;to-rent-or-own-your-ai-agents-brains&#34;&gt;To Rent or Own Your AI Agents&amp;rsquo; Brains&lt;/h1&gt;&#xA;&lt;p&gt;A year ago, everyone wanted access to the most powerful AI models available. GPT-4o was the gold standard, and companies were willing to pay premium prices for that level of capability.&lt;/p&gt;&#xA;&lt;p&gt;Around August 2024 is when I started saying something like &amp;ldquo;even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence.&amp;rdquo; Well, now we have that level of intelligence, and it can run on the compute of an iPhone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
