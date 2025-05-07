@@ -38,6 +38,11 @@ jobs:
           HUGO_ENV: production
         run: |
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Debug info
+        run: |
+          echo "Base URL: ${{ steps.pages.outputs.base_url }}"
+          echo "Artifact directory content:"
+          ls -la ./public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -52,4 +57,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
