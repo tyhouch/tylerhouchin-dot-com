@@ -8,9 +8,7 @@ draft = false
 Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just works. An awesome developer experience coupled with a model that is always at the bleeding edge of what's possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.
 
 Open source models were for those deep in pushing the models to do specific things, but to get the level of intelligence that OpenAI provides via ~2min setup, you needed expensive hardware, time sunk into getting the models running. You couldn't ship nearly as fast. For all of the AI tinkering that I did, if I had to configure spinning up models I would not have explored the problem space of LLMs nearly as much.
-
-![2023 Benchmarks](/images/blogs/rent-or-own/july_2023_bench.png)
-
+![2023 Benchmarks](/images/blogs/rent-or-own/july_2023_bench.png "July 2023 - Source: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/")
 
 Looking at recent benchmarks, it's clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. And they can run on the compute of an iPhone. The economics of whether to rent or own your AI infrastructure is no longer so obvious.
 
@@ -86,48 +84,18 @@ When people think about running their own models, we think GPU costs, but consid
 
 This is why smaller teams should start with APIs. Your engineering time is better spent building product. But as you scale, the tokenomics shift. With the right intelligence orchestration (something my company is working on), you can slash that people cost and make self-hosting financially attractive much earlier.
 
-## When Does Self‑Hosting Make Sense?
-
-The break‑even calculation depends on volume:
-
-A single active user having 30 interactions daily with an assistant generates about 1 million tokens monthly. With just 40‑50 such users, you're already at the break‑even point for smaller models.
-
----
-
-## **The Break‑Even Point**
-
-Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.
-
-### Worked Example (7 B model vs. GPT‑4.1 API)
-
-1. **API unit cost:** GPT‑4.1 ≈ **\$10 / M tokens** (input + output).
-2. **Self‑host variable cost:** Electricity + cooling ≈ **\$0.50 / M tokens**.
-3. **Monthly fixed cost:** Hardware + colo + ¼ FTE DevOps ≈ **\$3 000**.
-4. **Break‑even tokens:**
-   $$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$$
-
-> **≈ 316 M tokens per month** (about 10 M per day). Beyond this, every token you keep on‑prem saves money.
-
-### Why Many Teams Break Even Earlier
-
-* Most traffic *doesn't* need GPT‑4‑level reasoning. Switch half of it to a distilled or fine‑tuned 7 B model and the mixed basket API price drops to **\$5 / M tokens** → break‑even falls to **\~60 M tokens/month**.
-* Automation (yes, Kamiwaza Agents again) squeezes the biggest line‑item – **people** – shrinking the fixed‑cost numerator.
-
----
-
 ## Matching Models to Use Cases
 
-The most important insight is this: different tasks require different levels of capability. We've been in a one‑size‑fits‑all mindset, using the same top‑tier models for everything from summarizing meeting notes to complex programmings tasks.
+Different tasks require different levels of capability. 
+For many business applications—customer service, content summarization, document retrieval—smaller models now perform extremely well. These are precisely the high‑volume, predictable workloads that benefit most from self‑hosting. As mentioned earlier, coding or investigating new scientific domains still benefit the most from the bleeding-edge models. 
 
-This is wasteful. For many business applications—customer service, content summarization, document retrieval—smaller models now perform extremely well. These are precisely the high‑volume, predictable workloads that benefit most from self‑hosting.
-
-Additionally, **distillation** lets you bottle‑feed a smaller, cheaper model with the domain expertise of a frontier‑scale "teacher."
+For these repeatable workflows, **distillation** is a particularly useful method which lets you bottle‑feed a smaller, cheaper model with the domain expertise of a frontier‑scale "teacher."
 
 * **Step 1 — Sample:** Rent the big model briefly, prompt it with the kinds of inputs your workflow sees, and capture millions of high‑quality Q→A pairs (or function‑call traces).
 * **Step 2 — Train:** Fine‑tune a small (7‑13 B) "student" on that synthetic dataset. The student learns only what matters for your tasks, so it often recovers 90‑95 % of the teacher's accuracy at a fraction of the compute.
 * **Step 3 — Serve:** Quantize the student (8‑ or 4‑bit) and run it on modest GPUs or even CPUs. The one‑time distillation bill (compute + API calls) is usually paid back in a few weeks once you cross \~40 M tokens/month.
 
-With this approach you **own** **the smarts you care about** and keep the rental fees for frontier models reserved for genuinely novel or edge‑case queries.
+With this approach you **own** **the smarts you care about** and keep the rental fees for frontier models reserved for the intense queries.
 
 ## What This Means for Different Companies
 
@@ -159,8 +127,6 @@ For an enterprise processing 1 billion tokens monthly (which will soon be the no
 
 The question isn't whether closed or open source models are "better" in some absolute sense. It's about matching the right model to each task based on capability requirements and usage volume.
 
-The most successful AI strategies treat this as an ongoing optimization problem rather than a one‑time decision. They start with APIs for flexibility, gradually identify workloads suitable for self‑hosting, and continuously reevaluate as both their needs and the market evolve.
+The most successful AI strategies treat this as an ongoing optimization problem rather than a one time decision. They start with APIs for flexibility, gradually identify workloads suitable for self‑hosting, and continuously reevaluate as both their needs and the market evolve.
 
-A year ago, the capability gap between open source and closed source models made this a difficult tradeoff. Today, with small models performing at levels that were cutting‑edge just a year ago, the economics have fundamentally changed.
-
-We're entering an era where intelligence is becoming a commodity that is available in various sizes and price points to match different needs. The companies that thrive will be those that understand this shift and optimize accordingly.
+We've reached the point where intelligence has become a commodity available in various sizes and price points to match different needs. The companies that thrive will be those that understand this shift and optimize accordingly.
