@@ -70,7 +70,7 @@ But when we are building LLM workflows to automate business processes, dont requ
 Mixture of experts models are what make lots of these effiecency gains possible. They have hundreds of billions of parameters but only activate a small fraction for any given input. (Think - If I ask a question about making banana bread, do I need my East Asian History parameters activated?) This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.
 
 
-![MOE](/images/blogs/rent-or-own/moe.jpg)
+![MOE](/images/blogs/rent-or-own/moe.png)
 
 Further, quantization makes it easier to run substantial models on consumer‑grade hardware or modest cloud instances.
 
@@ -89,11 +89,6 @@ This is why smaller teams should start with APIs. Your engineering time is bette
 ## When Does Self‑Hosting Make Sense?
 
 The break‑even calculation depends on volume:
-
-| Model Size | Break‑Even Point (tokens/month) | Monthly Fixed Cost |
-| ---------- | ------------------------------- | ------------------ |
-| 7B models  | \~40‑50 million                 | \$2,000‑3,000      |
-| 70B models | \~150‑200 million               | \$15,000‑20,000    |
 
 A single active user having 30 interactions daily with an assistant generates about 1 million tokens monthly. With just 40‑50 such users, you're already at the break‑even point for smaller models.
 
