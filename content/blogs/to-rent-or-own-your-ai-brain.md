@@ -5,7 +5,7 @@ tags = ["AI", "OpenAI", "Anthropic", "Qwen", "Llama", "Open Source"]
 draft = false
 +++
 
-Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just works. An awesome developer experience coupled with a model that is always at the bleeding edge of what's possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.
+Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just worked. An awesome developer experience coupled with a model that is always at the bleeding edge of what's possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.
 
 Open source models were for those deep in pushing the models to do specific things, but to get the level of intelligence that OpenAI provides via ~2min setup, you needed expensive hardware, time sunk into getting the models running. You couldn't ship nearly as fast. For all of the AI tinkering that I did, if I had to configure spinning up models I would not have explored the problem space of LLMs nearly as much.
 ![2023 Benchmarks](/images/blogs/rent-or-own/july_2023_bench.png "July 2023 - Source: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/")
