@@ -2,109 +2,109 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64435/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/ai/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/anthropic/</loc>
+    <loc>http://localhost:1313/tags/anthropic/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/</loc>
+    <loc>http://localhost:1313/blogs/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/llama/</loc>
+    <loc>http://localhost:1313/tags/llama/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/open-source/</loc>
+    <loc>http://localhost:1313/tags/open-source/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/openai/</loc>
+    <loc>http://localhost:1313/tags/openai/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/qwen/</loc>
+    <loc>http://localhost:1313/tags/qwen/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/to-rent-or-own-your-ai-brain/</loc>
+    <loc>http://localhost:1313/blogs/to-rent-or-own-your-ai-brain/</loc>
     <lastmod>2025-05-07T13:57:10-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/infrastructure/</loc>
+    <loc>http://localhost:1313/tags/infrastructure/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/nvidia/</loc>
+    <loc>http://localhost:1313/tags/nvidia/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/the-day-ai-got-the-cheapest-again/</loc>
+    <loc>http://localhost:1313/blogs/the-day-ai-got-the-cheapest-again/</loc>
     <lastmod>2025-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/the-speed-of-thought/</loc>
+    <loc>http://localhost:1313/blogs/the-speed-of-thought/</loc>
     <lastmod>2024-12-16T18:51:21-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/clear-thinking/</loc>
+    <loc>http://localhost:1313/tags/clear-thinking/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/future-of-programming/</loc>
+    <loc>http://localhost:1313/tags/future-of-programming/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/learn-how-to-learn/</loc>
+    <loc>http://localhost:1313/blogs/learn-how-to-learn/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/learning/</loc>
+    <loc>http://localhost:1313/tags/learning/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/software-development/</loc>
+    <loc>http://localhost:1313/tags/software-development/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/agentic-systems/</loc>
+    <loc>http://localhost:1313/tags/agentic-systems/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/autogen/</loc>
+    <loc>http://localhost:1313/tags/autogen/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/crewai/</loc>
+    <loc>http://localhost:1313/tags/crewai/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/llms/</loc>
+    <loc>http://localhost:1313/tags/llms/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/maybe-simple-is-all-you-need/</loc>
+    <loc>http://localhost:1313/blogs/maybe-simple-is-all-you-need/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/swarm/</loc>
+    <loc>http://localhost:1313/tags/swarm/</loc>
     <lastmod>2024-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/generative-ai/</loc>
+    <loc>http://localhost:1313/tags/generative-ai/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/projects/hey/</loc>
+    <loc>http://localhost:1313/projects/hey/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/technology/</loc>
+    <loc>http://localhost:1313/tags/technology/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/ai-infrastructure/</loc>
+    <loc>http://localhost:1313/tags/ai-infrastructure/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/blogs/entering-the-inference-era/</loc>
+    <loc>http://localhost:1313/blogs/entering-the-inference-era/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/gpt-4/</loc>
+    <loc>http://localhost:1313/tags/gpt-4/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/gpt-o1/</loc>
+    <loc>http://localhost:1313/tags/gpt-o1/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/inference/</loc>
+    <loc>http://localhost:1313/tags/inference/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:64435/tags/scaling-laws/</loc>
+    <loc>http://localhost:1313/tags/scaling-laws/</loc>
     <lastmod>2024-10-06T00:00:00+00:00</lastmod>
   </url>
 </urlset>

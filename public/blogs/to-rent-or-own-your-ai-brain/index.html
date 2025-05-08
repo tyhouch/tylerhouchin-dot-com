@@ -2,27 +2,27 @@
 <html lang="en-us"
   dir="ltr">
 
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=64435&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
 
 
-<link rel="icon" type="image/ico" href="http://localhost:64435//favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:64435//favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:64435//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:64435//android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:64435//apple-touch-icon.png">
+<link rel="icon" type="image/ico" href="http://localhost:1313//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="http://localhost:1313//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313//apple-touch-icon.png">
 
 <meta name="description" content=""/>
 
 <title>
     
-    To Rent or Own Your Ai Brain | tyler houchin
+    To Rent or Own Your AI Brains | tyler houchin
     
 </title>
 
-<link rel="canonical" href="http://localhost:64435/blogs/to-rent-or-own-your-ai-brain/"/>
+<link rel="canonical" href="http://localhost:1313/blogs/to-rent-or-own-your-ai-brain/"/>
 
 
 
@@ -125,7 +125,7 @@
     <a href="/blogs/">Blogs</a>
     <span class="breadcrumbs-separator"> > </span>
     
-    <a class="breadcrumbs-current" href="/blogs/to-rent-or-own-your-ai-brain/">To Rent or Own Your Ai Brain</a>
+    <a class="breadcrumbs-current" href="/blogs/to-rent-or-own-your-ai-brain/">To Rent or Own Your AI Brains</a>
 </div>
 
 
@@ -136,7 +136,7 @@
 
     
 
-    <h1 class="single-title">To Rent or Own Your Ai Brain</h1>
+    <h1 class="single-title">To Rent or Own Your AI Brains</h1>
     
 
     
@@ -162,10 +162,28 @@
   
 
   <div class="single-content">
-    <h1 id="to-rent-or-own-your-ai-agents-brains">To Rent or Own Your AI Agents&rsquo; Brains</h1>
-<p>A year ago, everyone wanted access to the most powerful AI models available. GPT-4o was the gold standard, and companies were willing to pay premium prices for that level of capability.</p>
-<p>Around August 2024 is when I started saying something like &ldquo;even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence.&rdquo; Well, now we have that level of intelligence, and it can run on the compute of an iPhone.</p>
-<p>Looking at recent benchmarks, it&rsquo;s clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. </p>
+    <p>Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just works. An awesome developer experience coupled with a model that is always at the bleeding edge of what&rsquo;s possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.</p>
+<p>Open source models were for those deep in pushing the models to do specific things, but to get the level of intelligence that OpenAI provides via ~2min setup, you needed expensive hardware, time sunk into getting the models running. You couldn&rsquo;t ship nearly as fast. For all of the AI tinkering that I did, if I had to configure spinning up models I would not have explored the problem space of LLMs nearly as much.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    <div>
+        <img loading="lazy" alt="2023 Benchmarks" src=" /images/blogs/rent-or-own/july_2023_bench.png">
+    </div>
+
+    
+</figure></p>
+<p>Looking at recent benchmarks, it&rsquo;s clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. And they can run on the compute of an iPhone. The economics of whether to rent or own your AI infrastructure is no longer so obvious.</p>
 <p>
 
 
@@ -185,9 +203,9 @@
 
     
 </figure></p>
-<p>A 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn&rsquo;t to say the frontier models aren&rsquo;t the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks.</p>
-<h2 id="the-economics-of-choice">The Economics of Choice</h2>
-<p>There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but the economics have shifted dramatically in favor of self-hosting for many use cases.</p>
+<p>So a 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn&rsquo;t to say the frontier models aren&rsquo;t the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks. The cost structures for these approaches start to diverge dramatically as you scale up.</p>
+<h2 id="the-economics-tokenomics-of-choice">The <del>Economics</del> Tokenomics of Choice</h2>
+<p>There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but when you&rsquo;re running these models over and over for repeatable tasks or investigating breakthrough research are very different things.</p>
 <p>Here&rsquo;s what leading model providers charge:</p>
 <table>
   <thead>
@@ -285,7 +303,7 @@
       </tr>
   </tbody>
 </table>
-<p>These prices are perfectly linear (as far as they&rsquo;re advertised), you pay the same per token whether you use 1 million or 1 billion. It&rsquo;s worth recognizing <strong>you&rsquo;re not paying for compute alone,</strong> but also R&amp;D amortization and profit margins.</p>
+<p>These prices are perfectly linear (as far as they&rsquo;re advertised), you pay the same per token whether you use 1 million or 1 billion. It&rsquo;s worth recognizing <strong>you&rsquo;re not paying for compute alone,</strong> but also R&amp;D amortization and profit margins. Sama has to eat too.</p>
 <p>At scale, these monthly costs add up:</p>
 <table>
   <thead>
@@ -325,7 +343,8 @@
 </table>
 <p>Token volumes are growing exponentially as companies build more AI applications. What&rsquo;s 3B tokens today <strong>will</strong> be 30B next year as AI gets integrated into more systems and processes. Reasoning models (where the model outputs thousands of thinking tokens BEFORE it even responds) further add to this increase.</p>
 <h2 id="the-selfhosted-option">The Self‑Hosted Option</h2>
-<p>Last year, the gap between closed and open models was substantial. Today, it&rsquo;s often a matter of subjective preference often called &lsquo;vibes&rsquo;. When we are interacting with LLMs in a multi-turn, conversational format vibes matter! But when we are building LLM Workflows to automate business processes, objective cababilities are what to pay attention to.</p>
+<p>Last year, the gap between closed and open models was substantial. Today, it&rsquo;s often a matter of subjective preference which we call &lsquo;vibes&rsquo;. When we are interacting with LLMs in a multi-turn, conversational format vibes matter! It&rsquo;s the thing I think we first felt around claude-3-5-sonnet. It was a there was a good UX, and maybe even more of an improvement in the EX (emotional experience?)&hellip; its when the LLM just &lsquo;gets&rsquo; you.</p>
+<p>But when we are building LLM workflows to automate business processes, dont require vibes. These are headless applications running in the background to do one thing over and over again. Here objective cababilities are what to pay attention to.</p>
 <table>
   <thead>
       <tr>
@@ -367,7 +386,26 @@
       </tr>
   </tbody>
 </table>
-<p>MoE models are a game‑changer for efficiency. They have hundreds of billions of parameters but only activate a small fraction for any given input. This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.</p>
+<p>Mixture of experts models are what make lots of these effiecency gains possible. They have hundreds of billions of parameters but only activate a small fraction for any given input. (Think - If I ask a question about making banana bread, do I need my East Asian History parameters activated?) This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+<figure class="">
+
+    <div>
+        <img loading="lazy" alt="MOE" src=" /images/blogs/rent-or-own/moe.png">
+    </div>
+
+    
+</figure></p>
 <p>Further, quantization makes it easier to run substantial models on consumer‑grade hardware or modest cloud instances.</p>
 <table>
   <thead>
@@ -405,75 +443,13 @@
       </tr>
   </tbody>
 </table>
-<p>Of course, hardware is only part of the equation. The full cost of self‑hosting includes:</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Cost Category</th>
-          <th style="text-align: left">Annual Cost</th>
-          <th style="text-align: left">% of Total</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">Hardware maintenance</td>
-          <td style="text-align: left">$100K‑$300K</td>
-          <td style="text-align: left">15‑25%</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Staff</td>
-          <td style="text-align: left">$520K‑$830K</td>
-          <td style="text-align: left">40‑60%</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Data center/colocation</td>
-          <td style="text-align: left">$144K‑$288K</td>
-          <td style="text-align: left">10‑20%</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Electricity</td>
-          <td style="text-align: left">$58K‑$175K</td>
-          <td style="text-align: left">5‑15%</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">Software/licenses</td>
-          <td style="text-align: left">$50K‑$150K</td>
-          <td style="text-align: left">5‑10%</td>
-      </tr>
-      <tr>
-          <td style="text-align: left"><strong>Total Annual OpEx</strong></td>
-          <td style="text-align: left"><strong>$872K‑$1.74M</strong></td>
-          <td style="text-align: left"><strong>100%</strong></td>
-      </tr>
-  </tbody>
-</table>
-<p>People are the biggest expense, not the GPUs. But Kamiwaza&rsquo;s AI Agents will help with that :)</p>
+<p>When people think about running their own models, we think GPU costs, but consider the spent on setting up, maintaining, and improving these systems when new models are coming out monthly. People hours end accounting for 40-60% of your total cost.</p>
+<p>This is why smaller teams should start with APIs. Your engineering time is better spent building product. But as you scale, the tokenomics shift. With the right intelligence orchestration (something my company is working on), you can slash that people cost and make self-hosting financially attractive much earlier.</p>
 <h2 id="when-does-selfhosting-make-sense">When Does Self‑Hosting Make Sense?</h2>
 <p>The break‑even calculation depends on volume:</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: left">Model Size</th>
-          <th style="text-align: left">Break‑Even Point (tokens/month)</th>
-          <th style="text-align: left">Monthly Fixed Cost</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">7B models</td>
-          <td style="text-align: left">~40‑50 million</td>
-          <td style="text-align: left">$2,000‑3,000</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">70B models</td>
-          <td style="text-align: left">~150‑200 million</td>
-          <td style="text-align: left">$15,000‑20,000</td>
-      </tr>
-  </tbody>
-</table>
 <p>A single active user having 30 interactions daily with an assistant generates about 1 million tokens monthly. With just 40‑50 such users, you&rsquo;re already at the break‑even point for smaller models.</p>
 <hr>
-<h2 id="understanding-the-breakeven-point"><strong>Understanding the Break‑Even Point</strong></h2>
+<h2 id="the-breakeven-point"><strong>The Break‑Even Point</strong></h2>
 <p>Break‑even is reached when the variable savings per token cover the monthly fixed cost of owning the infrastructure.</p>
 <h3 id="worked-example-7-b-model-vs-gpt41-api">Worked Example (7 B model vs. GPT‑4.1 API)</h3>
 <ol>
@@ -518,7 +494,7 @@ $$\dfrac{3,000}{(10 - 0.5)/1,000,000} \approx 3.16\times10^8 \text{ tokens/mo}$$
 <p>If you&rsquo;re processing 100+ million tokens monthly, you can&rsquo;t afford to ignore the self‑hosting option for at least some of your workloads.</p>
 <p>The most effective approach is to implement an orchestration layer that intelligently routes requests to the right model based on requirements. Maintain a portfolio of self‑hosted models for core functionality and reserve API calls for specialized needs.</p>
 <p>For an enterprise processing 1 billion tokens monthly (which will soon be the norm, not the exception), the difference between pure API usage and intelligent deployment can easily exceed $5‑10 million annually.</p>
-<h2 id="this-isnt-religious-its-practical">This Isn&rsquo;t Religious, It&rsquo;s Practical</h2>
+<h2 id="this-isnt-religious">This Isn&rsquo;t Religious</h2>
 <p>The question isn&rsquo;t whether closed or open source models are &ldquo;better&rdquo; in some absolute sense. It&rsquo;s about matching the right model to each task based on capability requirements and usage volume.</p>
 <p>The most successful AI strategies treat this as an ongoing optimization problem rather than a one‑time decision. They start with APIs for flexibility, gradually identify workloads suitable for self‑hosting, and continuously reevaluate as both their needs and the market evolve.</p>
 <p>A year ago, the capability gap between open source and closed source models made this a difficult tradeoff. Today, with small models performing at levels that were cutting‑edge just a year ago, the economics have fundamentally changed.</p>

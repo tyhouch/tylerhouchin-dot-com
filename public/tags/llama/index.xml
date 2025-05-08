@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Llama on tyler houchin</title>
-    <link>http://localhost:64435/tags/llama/</link>
+    <link>http://localhost:1313/tags/llama/</link>
     <description>Recent content in Llama on tyler houchin</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 07 May 2025 13:57:10 -0400</lastBuildDate>
-    <atom:link href="http://localhost:64435/tags/llama/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/llama/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>To Rent or Own Your Ai Brain</title>
-      <link>http://localhost:64435/blogs/to-rent-or-own-your-ai-brain/</link>
+      <title>To Rent or Own Your AI Brains</title>
+      <link>http://localhost:1313/blogs/to-rent-or-own-your-ai-brain/</link>
       <pubDate>Wed, 07 May 2025 13:57:10 -0400</pubDate>
-      <guid>http://localhost:64435/blogs/to-rent-or-own-your-ai-brain/</guid>
-      <description>&lt;h1 id=&#34;to-rent-or-own-your-ai-agents-brains&#34;&gt;To Rent or Own Your AI Agents&amp;rsquo; Brains&lt;/h1&gt;&#xA;&lt;p&gt;A year ago, everyone wanted access to the most powerful AI models available. GPT-4o was the gold standard, and companies were willing to pay premium prices for that level of capability.&lt;/p&gt;&#xA;&lt;p&gt;Around August 2024 is when I started saying something like &amp;ldquo;even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence.&amp;rdquo; Well, now we have that level of intelligence, and it can run on the compute of an iPhone.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blogs/to-rent-or-own-your-ai-brain/</guid>
+      <description>&lt;p&gt;Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just works. An awesome developer experience coupled with a model that is always at the bleeding edge of what&amp;rsquo;s possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.&lt;/p&gt;&#xA;&lt;p&gt;Open source models were for those deep in pushing the models to do specific things, but to get the level of intelligence that OpenAI provides via ~2min setup, you needed expensive hardware, time sunk into getting the models running. You couldn&amp;rsquo;t ship nearly as fast. For all of the AI tinkering that I did, if I had to configure spinning up models I would not have explored the problem space of LLMs nearly as much.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
