@@ -5,21 +5,22 @@ tags = ["AI", "OpenAI", "Anthropic", "Qwen", "Llama", "Open Source"]
 draft = false
 +++
 
-A year ago, everyone wanted access to the most powerful AI models available. GPT-4o was the gold standard, and companies were willing to pay premium prices for that level of capability.
+Two years ago, when we were still in the prehistoric era of building with LLMs, everyone defaulted to GPT-4. It just works. An awesome developer experience coupled with a model that is always at the bleeding edge of what's possible is what catalyzed this boom of rapid AI-enabled apps to be developed and shipped.
 
-Around August 2024 is when I started saying something like "even if model progress stops today, there are still hundreds of use cases that can be built with this level of intelligence." Well, now we have that level of intelligence, and it can run on the compute of an iPhone.
+Open source models were for those deep in pushing the models to do specific things, but to get the level of intelligence that OpenAI provides via ~2min setup, you needed expensive hardware, time sunk into getting the models running. You couldn't ship nearly as fast. For all of the AI tinkering that I did, if I had to configure spinning up models I would not have explored the problem space of LLMs nearly as much.
 
-Looking at recent benchmarks, it's clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. 
+![2023 Benchmarks](/images/blogs/rent-or-own/july_2023_bench.png)
 
+
+Looking at recent benchmarks, it's clear that small open source models are now matching or exceeding what was state-of-the-art just a year ago. And they can run on the compute of an iPhone. The economics of whether to rent or own your AI infrastructure is no longer so obvious.
 
 ![Qwen3 Benchmarks](/images/blogs/rent-or-own/qwen3.jpg)
 
-
-A 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn't to say the frontier models aren't the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks.
+So a 4B parameter model that can run on consumer hardware is outperforming GPT-4o in several key areas. This isn't to say the frontier models aren't the best for some tasks, they are. For those that code, I do not see any of us swapping out claude-3.7-sonnet on Cursor until we get claude-4-sonnet. However, the gap has narrowed dramatically for repeatable, well‑outlined tasks. The cost structures for these approaches start to diverge dramatically as you scale up.
 
 ## The ~~Economics~~ Tokenomics of Choice
 
-There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but the economics have shifted dramatically in favor of self-hosting for many use cases.
+There are two paths for deploying AI: the rental model (APIs) and the ownership model (self-hosting). Each has its place, but when you're running these models over and over for repeatable tasks or investigating breakthrough research are very different things. 
 
 Here's what leading model providers charge:
 
@@ -40,7 +41,7 @@ Here's what leading model providers charge:
 | Gemini 2.5 Flash (thinking) | \$0.15                     | \$3.50                      | 1M tokens      |
 | Gemini 2.0 Flash            | \$0.10                     | \$0.40                      | 1M tokens      |
 
-These prices are perfectly linear (as far as they're advertised), you pay the same per token whether you use 1 million or 1 billion. It's worth recognizing **you're not paying for compute alone,** but also R\&D amortization and profit margins.
+These prices are perfectly linear (as far as they're advertised), you pay the same per token whether you use 1 million or 1 billion. It's worth recognizing **you're not paying for compute alone,** but also R\&D amortization and profit margins. Sama has to eat too. 
 
 At scale, these monthly costs add up:
 
@@ -55,7 +56,9 @@ Token volumes are growing exponentially as companies build more AI applications.
 
 ## The Self‑Hosted Option
 
-Last year, the gap between closed and open models was substantial. Today, it's often a matter of subjective preference often called 'vibes'. When we are interacting with LLMs in a multi-turn, conversational format vibes matter! But when we are building LLM Workflows to automate business processes, objective cababilities are what to pay attention to.
+Last year, the gap between closed and open models was substantial. Today, it's often a matter of subjective preference which we call 'vibes'. When we are interacting with LLMs in a multi-turn, conversational format vibes matter! It's the thing I think we first felt around claude-3-5-sonnet. It was a there was a good UX, and maybe even more of an improvement in the EX (emotional experience?)... its when the LLM just 'gets' you.
+
+But when we are building LLM workflows to automate business processes, dont require vibes. These are headless applications running in the background to do one thing over and over again. Here objective cababilities are what to pay attention to.
 
 | Model               | Parameters                               | Architecture | Context Window | Key Strengths                   |
 | ------------------- | ---------------------------------------- | ------------ | -------------- | ------------------------------- |
@@ -66,6 +69,9 @@ Last year, the gap between closed and open models was substantial. Today, it's o
 
 Mixture of experts models are what make lots of these effiecency gains possible. They have hundreds of billions of parameters but only activate a small fraction for any given input. (Think - If I ask a question about making banana bread, do I need my East Asian History parameters activated?) This dramatically reduces computation costs while maintaining or even improving performance. DeepSeek V3, for instance, has 671B parameters but only uses 37B at a time.
 
+
+![MOE](/images/blogs/rent-or-own/moe.jpg)
+
 Further, quantization makes it easier to run substantial models on consumer‑grade hardware or modest cloud instances.
 
 | Model Size    | Minimum VRAM (FP16)    | With 8‑bit Quantization | With 4‑bit Quantization |
@@ -75,18 +81,10 @@ Further, quantization makes it easier to run substantial models on consumer‑gr
 | 70B models    | 140GB                  | 70GB                    | 35GB                    |
 | 100B+ MoE     | \~80GB (active params) | \~40GB                  | \~20GB                  |
 
-Of course, hardware is only part of the equation. The full cost of self‑hosting includes:
 
-| Cost Category          | Annual Cost        | % of Total |
-| ---------------------- | ------------------ | ---------- |
-| Hardware maintenance   | \$100K‑\$300K      | 15‑25%     |
-| Staff                  | \$520K‑\$830K      | 40‑60%     |
-| Data center/colocation | \$144K‑\$288K      | 10‑20%     |
-| Electricity            | \$58K‑\$175K       | 5‑15%      |
-| Software/licenses      | \$50K‑\$150K       | 5‑10%      |
-| **Total Annual OpEx**  | **\$872K‑\$1.74M** | **100%**   |
+When people think about running their own models, we think GPU costs, but consider the spent on setting up, maintaining, and improving these systems when new models are coming out monthly. People hours end accounting for 40-60% of your total cost.
 
-People are the biggest expense, not the GPUs. But Kamiwaza's AI Agents will help with that :)
+This is why smaller teams should start with APIs. Your engineering time is better spent building product. But as you scale, the tokenomics shift. With the right intelligence orchestration (something my company is working on), you can slash that people cost and make self-hosting financially attractive much earlier.
 
 ## When Does Self‑Hosting Make Sense?
 
