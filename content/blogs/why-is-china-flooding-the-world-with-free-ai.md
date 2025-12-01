@@ -2,7 +2,7 @@
 title = 'Why is China Flooding the World with Free AI?'
 date = 2025-12-01T12:00:00-05:00
 tags = ["AI", "China", "Open Source", "Geopolitics"]
-draft = true
+draft = false
 +++
 
 
@@ -12,21 +12,32 @@ On the news and you'll see countless discussions about "The AI Race" that we are
 
 Giving away the model weights seems altruistic, but it cannot be. This *is* China we're taking about... so the question remains: Why is China giving away their LLMs while US holds theirs behind lock and key?
 
-----
+## The Open Source Flood
 
-Over the past year, Chinese companies have released an absurd number of open source AI models. DeepSeek, Qwen, Kimi, GLM, MiniMax - new ones every few weeks, all under permissive licenses, weights available for anyone to download. **And they're not second-tier models!** As of writing this in November 2025, the leaderboard has Kimi K2 Thinking as the leading open source model. It is competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and way better than the leading US open source model (gpt-oss-120b from OpenAI).
+Over the past year, Chinese companies have released an absurd number of open source AI models. DeepSeek, Qwen, Kimi, GLM, MiniMax - new ones every few weeks, all under permissive licenses, weights available for anyone to download.
+
+And these aren't second-tier models. As of November 2025, the leaderboard has Kimi K2 Instruct as the leading open source model. It's competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and significantly better than any US open source alternative.
+
+Before 2025, open source AI moved slowly. Then 2025 hit: DeepSeek R1 in January, Qwen 3 in March, MiniMax M1 in summer, Kimi K2 and GLM-4.5 in July, then ByteDance models, more Qwen releases, even Meituan (China's DoorDash) releasing a trillion-parameter model.
+
+These companies are spending millions on training and giving the results away. That seems insane, but they were never going to make money on models anyway.
 
 
-These Chinese companies are spending millions on training and then giving the results away. That seems insane until you realize: they were never going to make money on models anyway.
+## Why the US Charges and China Can't
 
-OpenAI, Anthropic, and Google all blocked access from China in 2022. Not because China banned them - the US companies chose to cut off access. That means Chinese AI companies have zero path to selling API access to Western enterprises. No CISO is approving data flowing through a Chinese AI service.
+The US strategy is straightforward: train expensive models, monetize through APIs and subscriptions. OpenAI, Anthropic, and Google can do this because they have paying customers. Enterprises will pay for GPT-5 API access. Consumers will pay $20/month for ChatGPT. The model is the product.
+
+This works because US companies have access to the market that matters most - Western enterprises with AI budgets. No Fortune 500 CISO is going to approve production data flowing through a Chinese AI service, but they'll happily sign an OpenAI contract.
+
+Chinese companies don't have this option. OpenAI, Anthropic, and Google all blocked access from China in 2022. Not because China banned them - the US companies chose to cut off access. That means Chinese AI companies have zero path to selling API access to Western enterprises.
 
 And domestically, the economics collapsed immediately. When DeepSeek open-sourced R1, Baidu announced they'd open-source Ernie. Then Alibaba, Tencent, ByteDance - everyone followed within weeks. If your competitor releases a frontier model for free, you can't charge for yours.
 
-So Chinese AI companies found themselves in a situation where they couldn't monetize models internationally (blocked by Western companies) or domestically (competitors giving them away for free). The API business model that funds OpenAI and Anthropic was dead on arrival.
+So Chinese AI companies found themselves boxed out internationally (blocked by Western companies) and commoditized domestically (competitors giving models away). The API business model that funds OpenAI and Anthropic was dead on arrival.
 
+## State Funding Changes the Math
 
-As we assume with Chinese companies, State funding changes the economics. DeepSeek's parent company got designated a "national high-tech enterprise" in 2023 which provided them tax breaks, subsidies, and state-backed capital. The founder met with Premier Li Qiang (#2 to Xi) in early 2024. After R1 launched, Bank of China announced a $137 billion AI infrastructure fund. 
+As we assume with Chinese companies, State funding reshapes the economics. DeepSeek's parent company got designated a "national high-tech enterprise" in 2023 which provided them tax breaks, subsidies, and state-backed capital. The founder met with Premier Li Qiang (#2 to Xi) in early 2024. After R1 launched, Bank of China announced a $137 billion AI infrastructure fund. 
 
 When the government is funding your compute, ROI isn't measured at the company level. It's measured nationally.
 
@@ -40,23 +51,25 @@ China is still under US chip export controls and can't (easily) get the best Nvi
 
 The hardware strategy extends beyond just the chips used to run the LLMs. Over half of publicly listed humanoid robotics companies are Chinese. DJI dominates drones. China manufactures most AI-enabled consumer devices globally.
 
+## The Commoditization Thesis
+
 Brett Adcock, CEO of Figure AI, said it directly when ending their OpenAI partnership in February 2025: "LLMs are getting smarter yet more commoditized. For us, LLMs have quickly become the smallest piece of the puzzle."
 
-Models - or digital intelligence - is becoming commoditized, the money to be made will be (1) at the bottom of the stack: infra to run the models and (2) at the top of the stack: the applications/devices that utilize these models.
+If models become commoditized, the money flows elsewhere. To the bottom of the stack: infrastructure to run the models. To the top of the stack: applications and devices that use them. And to the middle: the ecosystem of developers building on top.
 
-Before 2025, open-source AI moved slowly - a few Mistral releases, a couple Llama updates per year. That was normal. But 2025? DeepSeek R1 in January, Qwen 3 in March, MiniMax M1 in summer, Kimi K2 and GLM-4.5 in July, then ByteDance models, more Qwen releases, even Meituan (China's DoorDash) releasing a trillion-parameter model.
+China looked at this landscape and made a bet: we can't win the model monetization game, so let's accelerate commoditization and win everything else.
 
 There's an irony in how this happened. US export controls were supposed to slow China's AI development by restricting access to advanced chips. Instead, they forced innovation.
 
-China is compute-bound - can't easily get cutting-edge GPUs. The US is increasingly energy-bound - $64 billion in datacenter projects have been blocked or delayed due to grid constraints and local opposition. Both countries are optimizing around their bottleneck, just in opposite directions.
+## Where This Leaves Us
 
-When you can't throw unlimited H100s at training, you develop better architectures. Mixture-of-Experts, DeepSeek's GRPO algorithm, aggressive optimization. DeepSeek trained frontier models for $5-6 million on export-controlled H800s while OpenAI spent $100+ million on top hardware.
+China has proven remarkably adaptable. Western markets closed to them? Fine, can't monetize there anyway. Domestic competition destroyed pricing power? Fine, state funding removes the need for returns. Can't get Nvidia chips? Fine, optimize for Huawei and build that ecosystem instead.
 
-Constraints forced efficiency. And now that efficiency advantage is being distributed globally through open weights.
+The strategy crystallizes: free models create demand for Chinese hardware (chips, robots, consumer devices) and capture the developer ecosystem that builds on top. The models were never the product. They're the distribution mechanism.
 
-Where does this leave things?
+The US is betting that closed, monetizable models will fund the research needed to stay ahead. China is betting that commoditized, free models will let them win on hardware and ecosystem even if they're not always at the frontier.
 
-China has proven to be awesomely adaptable in the AI market. First, Western markets are closed to them, then domestic competition destroys pricing power. But then State funding removed the need for returns, so they're using free models to create demand for Chinese hardware - chips, robots, consumer devices. That's the business model. The models themselves were never the product.
+Both strategies are coherent. We're about to find out which one wins.
 
 ---
 
