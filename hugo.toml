@@ -29,7 +29,7 @@ hideHeader = false
 homeIntroTitle = 'Welcome!'
 # Intro on main page, content is markdown
 homeIntroContent = """
-Hi, I'm Tyler! I'm currently building at [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in generative AI, biotechnology, and sociology. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
+Hi, I'm Tyler! I'm currently at [Kamiwaza](https://www.kamiwaza.ai/), and I'm deeply interested in AI, biotech, among other things. Through this blog, I aim to spark conversations and keep a log of my thoughts as we approach AGI.
 """
 
 

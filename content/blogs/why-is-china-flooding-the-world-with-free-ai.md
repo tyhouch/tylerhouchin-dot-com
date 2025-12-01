@@ -1,6 +1,6 @@
 +++
 title = 'Why is China Flooding the World with Free AI?'
-date = 2025-12-01T12:00:00-05:00
+date = 2025-12-01T09:00:00-05:00
 tags = ["AI", "China", "Open Source", "Geopolitics"]
 draft = false
 +++
