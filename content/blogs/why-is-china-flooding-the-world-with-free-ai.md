@@ -47,9 +47,9 @@ So Chinese AI companies found themselves boxed out internationally and commoditi
 
 ### *Commoditization as Strategy*
 
-Here's where it gets interesting. Brett Adcock, CEO of Figure AI, said it directly when ending their OpenAI partnership in February 2025: "LLMs are getting smarter yet more commoditized. For us, LLMs have quickly become the smallest piece of the puzzle."
+Brett Adcock, CEO of Figure AI, said it directly when ending their OpenAI partnership in February 2025: "LLMs are getting smarter yet more commoditized. For us, LLMs have quickly become the smallest piece of the puzzle."
 
-If models become commoditized, the money flows elsewhere. To the bottom of the stack: infrastructure to run the models. To the top of the stack: applications and devices that use them. And to the middle: the ecosystem of developers building on top.
+**If models become commoditized, the money flows elsewhere.** To the bottom of the stack: infrastructure to run the models. To the top of the stack: applications and devices that use them. And to the middle: the ecosystem of developers building on top.
 
 China looked at this landscape and made a bet: we can't win the model monetization game, so let's accelerate commoditization and win everything else.
 
