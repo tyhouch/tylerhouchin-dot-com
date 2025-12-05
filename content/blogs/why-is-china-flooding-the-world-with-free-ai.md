@@ -16,7 +16,7 @@ Giving away the model weights seems altruistic, but it cannot be. This *is* Chin
 
 Over the past year, Chinese companies have released a flood of open source AI models. DeepSeek, Qwen, Kimi, GLM, MiniMax - new ones every few weeks, all under permissive licenses, weights available for anyone to download.
 
-And these aren't second-tier models. As of November 2025, the leaderboard has Kimi K2 Instruct as the leading open source model. It's competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and significantly better than any US open source alternative.
+And these aren't second-tier models. As of December 2025, the leaderboard has Kimi K2 Instruct as the leading open source model. It's competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and significantly better than any US open source alternative.
 
 ![LLM Intelligence Index Leaderboard](/images/blogs/china-free-ai/llm_leaderboard_chart.png)
 
