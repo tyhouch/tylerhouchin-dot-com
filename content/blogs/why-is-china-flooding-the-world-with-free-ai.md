@@ -14,17 +14,17 @@ Giving away the model weights seems altruistic, but it cannot be. This *is* Chin
 
 ## The Open Source Flood
 
-Over the past year, Chinese companies have released a flood of open source AI models. DeepSeek, Qwen, Kimi, GLM, MiniMax - new ones every few weeks, all under permissive licenses, weights available for anyone to download.
+Over the past year, Chinese companies have released a flood of open source AI models. DeepSeek, Qwen, Kimi, GLM, MiniMax; there's new ones every few weeks, all under permissive licenses, weights available for anyone to download.
 
-And these aren't second-tier models. As of December 2025, the leaderboard has Kimi K2 Instruct as the leading open source model. It's competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and significantly better than any US open source alternative.
+And these aren't second tier models. As of December 2025, the leaderboard has Kimi K2 Instruct as the leading open source model. It's competitive with leading US closed models (GPT-5, Gemini 3, Claude 4.5 Opus) and significantly better than any US open source alternative.
 
 ![LLM Intelligence Index Leaderboard](/images/blogs/china-free-ai/llm_leaderboard_chart.png)
 
 Looking at the chart, 10 of the top 12 open source models are Chinese. The only US entries are OpenAI's gpt-oss models.
 
-Before 2025, open source AI moved slowly. Then 2025 hit: DeepSeek R1 in January, Qwen 3 in March, MiniMax M1 in summer, Kimi K2 and GLM-4.5 in July, then ByteDance models, more Qwen releases, even Meituan (China's DoorDash) releasing a trillion-parameter model.
+Before 2025, open source AI moved slowly. Then 2025 hit: DeepSeek R1 in January, Qwen 3 in March, MiniMax M1 in summer, Kimi K2 and GLM-4.5 in July, then ByteDance models, more Qwen releases, even Meituan (China's DoorDash) releasing a trillion parameter model.
 
-These companies are spending millions on training and giving the results away. That seems insane - unless you realize they were never going to make money on models anyway.
+These companies are spending millions on training and giving the results away. That seems insane... unless you realize they were never going to make money on models anyway.
 
 
 ## Why China Can't Charge
@@ -35,13 +35,13 @@ Chinese companies don't have this option. They're boxed out on two fronts.
 
 ### *Internationally: Blocked Out*
 
-US companies have access to the market that matters most - Western enterprises with AI budgets. No Fortune 500 CISO is going to approve production data flowing through a Chinese AI service, but they'll happily sign an OpenAI contract.
+US companies have access to the market that matters most: Western enterprises with AI budgets. No Fortune 500 CISO is going to approve production data flowing through a Chinese AI service, but they'll happily sign an OpenAI contract.
 
 OpenAI, Anthropic, and Google all blocked access from China in 2022. The US companies chose to cut off access. That means Chinese AI companies have zero path to selling API access to Western enterprises.
 
 ### *Domestically: Race to the Bottom*
 
-And domestically, the economics collapsed immediately. When DeepSeek open-sourced R1, Baidu announced they'd open-source Ernie. Then Alibaba, Tencent, ByteDance - everyone followed within weeks. If your competitor releases a frontier model for free, you can't charge for yours.
+And domestically, the economics collapsed immediately. When DeepSeek open-sourced R1, Baidu announced they'd open-source Ernie. Then Alibaba, Tencent, ByteDance and everyone else followed within weeks. If your competitor releases a frontier model for free, you can't charge for yours.
 
 So Chinese AI companies found themselves boxed out internationally and commoditized domestically. The API business model that funds OpenAI and Anthropic was dead on arrival.
 
@@ -67,11 +67,11 @@ This is where the strategy crystallizes. If you can't make money on models, what
 
 ### *Chips*
 
-China is still under US chip export controls and can't (easily) get the best Nvidia GPUs. So Chinese companies optimized their models to run on Huawei Ascend chips. DeepSeek V3.2 launched with first-day support for Huawei's CANN software stack.
+China is still under US chip export controls and can't (easily) get the best Nvidia GPUs. So Chinese companies optimized their models to run on Huawei Ascend chips. DeepSeek V3.2 launched with day 1 support for Huawei's CANN software stack.
 
 If DeepSeek and Qwen become the global default and they're optimized to run on Chinese chips, demand flows toward Chinese semiconductors instead of Nvidia.
 
-There's an irony here. US export controls were supposed to slow China's AI development by restricting access to advanced chips. Instead, they forced innovation - and created an incentive to build an alternative hardware ecosystem.
+There's an irony here. US export controls were supposed to slow China's AI development by restricting access to advanced chips. Instead, they forced innovation and created an incentive to build an alternative hardware ecosystem.
 
 ### *Robots and Devices*
 
@@ -83,7 +83,7 @@ Free models that run well on Chinese hardware create demand across the entire st
 
 China has proven adaptable. Western markets closed to them? Fine, can't monetize there anyway. Domestic competition destroyed pricing power? Fine, state funding removes the need for returns. Can't get Nvidia chips? Fine, optimize for Huawei and build that ecosystem instead.
 
-The strategy crystallizes: free models create demand for Chinese hardware (chips, robots, consumer devices) and capture the developer ecosystem that builds on top. The models were never the product. They're the distribution mechanism.
+The strategy crystallizes: **free models create demand for Chinese hardware (chips, robots, consumer devices) and capture the developer ecosystem that builds on top.** The models were never the product. They're the distribution mechanism.
 
 The US is betting that closed, monetizable models will fund the research needed to stay ahead. China is betting that commoditized, free models will let them win on hardware and ecosystem even if they're not always at the frontier.
 
