@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Catskills 2026</title>
+<style>
+:root { --bg: #fafafa; --fg: #111; --muted: #777; --line: #ddd; }
+@media (prefers-color-scheme: dark) { :root { --bg: #111; --fg: #eee; --muted: #888; --line: #333; } }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--fg);
+       font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; display: grid; place-items: center; }
+main { width: min(100%, 1100px); padding: 24px 16px; }
+h1 { font-size: 20px; font-weight: 600; margin: 0 0 16px; }
+form { display: flex; gap: 8px; max-width: 360px; }
+input, button { font: inherit; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: transparent; color: var(--fg); }
+input { flex: 1; min-width: 0; }
+button { cursor: pointer; }
+#err { color: #d33; min-height: 1.5em; margin: 8px 0 0; font-size: 14px; }
+.video { position: relative; aspect-ratio: 16 / 9; width: 100%; background: #000; border-radius: 8px; overflow: hidden; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+</style></head>
+<body><main>
+<h1>Catskills 2026</h1>
+<form id="f"><input id="p" type="password" placeholder="Password" autocomplete="current-password" autofocus><button>Watch</button></form>
+<p id="err"></p>
+<div id="out"></div>
+</main>
+<script>
+const B = {"salt": "tYM6PH1lzCow3Fk4z54ceQ==", "iv": "4zf9dW3FwbXwlGMp", "ct": "EqahkEEAa3kRVJfxcZFPs6kxtuFMO3YufO6mWh3H70KueIAnFEM9C1TOsb7YVDn05492dNcDgXD7z4ejPcaunNaCZdPkSYcP+SJJJx9BTjLueQp8TVfbjiGFdFPe0gWn7o+Xfyfrj7xZPq7k/GlKT4/1/zYWsj5987v86kFUQNhNIOV7w0xE5LsbguDofCJs0eNPz9kRItJlwvCBYvAxtid0R/SPvJ44GN1SSPnxnxEDt4Ci0NHldwYxS3WfBvUDJ9I6WDuyK7IemJa+31GxzT+MtHDUyj0dUxDf112NlQ=="}, ROUNDS = 600000;
+const b64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+document.getElementById("f").addEventListener("submit", async e => {
+  e.preventDefault();
+  const err = document.getElementById("err");
+  err.textContent = "";
+  try {
+    const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(document.getElementById("p").value), "PBKDF2", false, ["deriveKey"]);
+    const key = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: b64(B.salt), iterations: ROUNDS, hash: "SHA-256" },
+      base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(B.iv) }, key, b64(B.ct));
+    document.getElementById("f").remove();
+    document.getElementById("out").innerHTML = '<div class="video">' + new TextDecoder().decode(plain) + "</div>";
+  } catch { err.textContent = "Wrong password."; }
+});
+</script>
+</body></html>
